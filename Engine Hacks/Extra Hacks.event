@@ -72,7 +72,7 @@
   #include "LeadAI/LeadAiFix.event"
 
   //Allow CHAI to edit AI 3 and 4 as well
-  //#include "New CHAI/New CHAI.event"
+  #include "New CHAI/New CHAI.event"
 
   //Changes weapon ability bits
   // #include "Reaver and Double WTA Split/Installer.event"

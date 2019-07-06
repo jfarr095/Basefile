@@ -7,4 +7,4 @@ POP
 
 ALIGN 4
 New_CHAI:
-#incbin "New_CHAI.dmp
+#incbin "New_CHAI.dmp"
