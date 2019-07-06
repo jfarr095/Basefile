@@ -37,6 +37,8 @@
 
     #undef TEXT_DEFINITIONS
     #undef TABLE_DEFINITIONS
+    #undef TEXT_INSTALLER_TEXT_BUILDFILE_TXT
+    #undef TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT
     
     //User Data
     #include "_UserData/User Buildfile.event"
