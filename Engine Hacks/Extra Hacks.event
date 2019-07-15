@@ -74,6 +74,9 @@
   //Allow CHAI to edit AI 3 and 4 as well
   #include "New CHAI/New CHAI.event"
 
+  //Set Prep Screen music per chapter
+  #include "Changing preparation BGM/EA.event"
+
   //Changes weapon ability bits
   // #include "Reaver and Double WTA Split/Installer.event"
 
