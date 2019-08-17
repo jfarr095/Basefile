@@ -4,6 +4,8 @@ ALIGN 4
 ExpandedAnimTable:
 #incbin "expandanimtable.bin"
 
+#define AnimTableEntry(index) "ORG ExpandedAnimTable + ((index-0x1) * 0x20)"
+
 PUSH
 ORG $59BD8
 POIN ExpandedAnimTable

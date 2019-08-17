@@ -8,6 +8,8 @@
 
 #include "ExpandedPortraitTable/expandportraittableinstaller.event"
 
+#include "ExpandedItemTable/ExpandedItemTableInstaller.event"
+
 #include "ExpandedItemIconTable/expandicontable.event"
 
 #include "Summoning Table.event"

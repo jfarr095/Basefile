@@ -10,8 +10,8 @@
 #define ItemInstaller(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019,arg020,arg021,arg022,arg023,arg024,arg025) "SHORT arg000 arg001 arg002 ;BYTE arg003 arg004 arg005 arg006 arg007 arg008 ;WORD arg009 arg010 ;BYTE arg011 arg012 arg013 arg014 arg015 arg016 ;SHORT arg017 ;BYTE arg018 arg019 arg020 arg021 arg022 arg023 arg024 arg025 "
 #define SpellAssociationEditor(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009) "SHORT arg000 arg001 ;BYTE arg002 arg003 ;SHORT arg004 ;WORD arg005 ;BYTE arg006 arg007 arg008 arg009 "
 #define StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB) "BYTE HPB StrB SklB SpdB DefB ResB LckB MovB ConB MagB 0x0 0x0"
-#define SetItemRange(itemId,range) "PUSH; ORG ItemTable + (itemId * 0x24) + 0x19; BYTE range; POP"
-#define SetItemText(itemId,name,description) "PUSH; ORG ItemTable + (itemId * 0x24); SHORT name description; POP"
+//#define SetItemRange(itemId,range) "PUSH; ORG ExpandedItemTable + (itemId * 0x24) + 0x19; BYTE range; POP"
+//#define SetItemText(itemId,name,description) "PUSH; ORG ExpandedItemTable + (itemId * 0x24); SHORT name description; POP"
 
 //Modular Character Installer
 #define UnitInstaller(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019,arg020,arg021,arg022,arg023,arg024,arg025,arg026,arg027,arg028,arg029,arg030,arg031,arg032,arg033,arg034,arg035,arg036,arg037,arg038,arg039,arg040,arg041,arg042,arg043,arg044,arg045) "SHORT arg000 arg001 ;BYTE arg002 arg003 ;SHORT arg004 ;BYTE arg005 arg006 arg007 arg008 arg009 arg010 arg011 arg012 arg013 arg014 arg015 arg016 arg017 arg018 arg019 arg020 arg021 arg022 arg023 arg024 arg025 arg026 arg027 arg028 arg029 arg030 arg031 arg032 arg033 arg034 arg035 arg036 arg037 arg038 arg039 arg040 ;WORD arg041 ;BYTE arg042 arg043 arg044 arg045 "
@@ -44,7 +44,6 @@
 #define AnimType2Installer(PaletteData,Interval,DataSize,PaletteNo) "WORD PaletteData|IsPointer; BYTE Interval DataSize PaletteNo 0x0"
 
 //Animation Assembler
-#define AnimTableEntry(index) "ORG ExpandedAnimTable + ((index-0x1) * 0x20)"
 #define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
 #define SpearAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
 #define LanceAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
@@ -75,6 +74,31 @@
 #define jumpToHack_r1(offset) "SHORT 0x4900 0x4708 ; POIN (offset|1)"
 #define jumpToHack_r2(offset) "SHORT 0x4A00 0x4710 ; POIN (offset|1)"
 #define jumpToHack_r3(offset) "SHORT 0x4B00 0x4718 ; POIN (offset|1)"
+
+//ASMC Check Suite
+#define CheckLevel(Character) "SVAL 0x1 Character; ASMC CheckLevelASMC|1"
+#define CheckExperience(Character) "SVAL 0x1 Character; ASMC CheckExperienceASMC|1"
+#define CheckMaxHP(Character) "SVAL 0x1 Character; ASMC CheckMaxHPASMC|1"
+#define CheckCurrentHP(Character) "SVAL 0x1 Character; ASMC CheckCurrentHPASMC|1"
+#define CheckStrength(Character) "SVAL 0x1 Character; ASMC CheckLStrengthASMC|1"
+#define CheckSkill(Character) "SVAL 0x1 Character; ASMC CheckSkillASMC|1"
+#define CheckSpeed(Character) "SVAL 0x1 Character; ASMC CheckSpeedASMC|1"
+#define CheckDefense(Character) "SVAL 0x1 Character; ASMC CheckDefenseASMC|1"
+#define CheckResistance(Character) "SVAL 0x1 Character; ASMC CheckResistanceASMC|1"
+#define CheckConstitution(Character) "SVAL 0x1 Character; ASMC CheckConstitutionASMC|1"
+#define CheckMovement(Character) "SVAL 0x1 Character; ASMC CheckMovementASMC|1"
+#define CheckInventory(Character,Item) "SVAL 0x1 Character; SVAL 0x2 Item; ASMC CheckHasItemASMC|1"
+#define CheckSwordRank(Character) "SVAL 0x1 Character; ASMC CheckSwordRankASMC|1"
+#define CheckLanceRank(Character) "SVAL 0x1 Character; ASMC CheckLanceRankASMC|1"
+#define CheckAxeRank(Character) "SVAL 0x1 Character; ASMC CheckAxeRankASMC|1"
+#define CheckBowRank(Character) "SVAL 0x1 Character; ASMC CheckBowRankASMC|1"
+#define CheckStaffRank(Character) "SVAL 0x1 Character; ASMC CheckStaffRankASMC|1"
+#define CheckAnimaRank(Character) "SVAL 0x1 Character; ASMC CheckAnimaRankASMC|1"
+#define CheckLightRank(Character) "SVAL 0x1 Character; ASMC CheckLightRankASMC|1"
+#define CheckDarkRank(Character) "SVAL 0x1 Character; ASMC CheckDarkRankASMC|1"
+#define CheckStatusEffect(Character) "SVAL 0x1 Character; ASMC CheckStatusEffectASMC|1"
+#define CheckStatusDuration(Character) "SVAL 0x1 Character; ASMC CheckStatusDurationASMC|1"
+#define CheckMagic(Character) "SVAL 0x1 Character; ASMC CheckMagicASMC|1"
 
 //Event Definitions
 #define LoadUnit(x,y) "UNIT Seth Cavalier 0x00 Level(1,Ally,1) [x,y] 0x00 0x00 0x00 0x00 [0x00] NoAI" //for units in player placement with prep menu
@@ -111,3 +135,4 @@
 #define ForgetSkill(Unit,Skill) "SVAL 0x1 Skill; SVAL 0x2 Unit; ASMC (ASMC_HasSkill|1); BEQ 0xED6C 0xC 0x0; ASMC (ASMC_ForgetSkill|1); LABEL 0xED6C"
 #define MuteMusic "MUSCFAST 0x7FFF"
 #define SetHP(number,x,y) "SVAL 0x1 number; SVAL 0xB Coords(x,y); SET_HP 0xFFFE"
+#define TakeGold(Amount) "SVAL 0x3 Amount; GIVETOSLOT3"

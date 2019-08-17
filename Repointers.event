@@ -1,6 +1,7 @@
 
 PUSH
 
+/*
 ORG $16410
 POIN ItemTable
 ORG $16440
@@ -135,6 +136,7 @@ ORG $1C1FB8
 POIN ItemTable
 ORG $1C20E0
 POIN ItemTable
+*/
 
 ORG $28E88
 POIN ItemTargetTable

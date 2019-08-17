@@ -50,4 +50,4 @@ allies' avoid by 10 for a turn.[X]
 Doubles the weapon traingle's effects.[X]
 
 ## ReaverDescription
-Inverts and doubles the weapon triangle.[X]
+Inverts and triples the weapon triangle.[X]

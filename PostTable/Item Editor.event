@@ -1,5 +1,3 @@
-#define ItemTable 0x809B10
-
 // Silences FEBuilder Errors
 SetItemRange(0xBE,0x11)
 SetItemRange(0xBF,0x11)

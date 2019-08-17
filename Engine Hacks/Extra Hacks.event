@@ -77,6 +77,9 @@
   //Set Prep Screen music per chapter
   #include "Changing preparation BGM/EA.event"
 
+  //ASMC Check Suite
+  #include "ASMCCheckSuite/ASMC Check Installer.event"
+
   //Changes weapon ability bits
   // #include "Reaver and Double WTA Split/Installer.event"
 
