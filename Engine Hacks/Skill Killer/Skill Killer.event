@@ -5,7 +5,7 @@ ALIGN 4
 
 PUSH
 
-ORG LevelUpSkillTable
+ORG ClassLevelUpSkillTable
 POIN DeadSkillList
 POIN DeadSkillList
 POIN DeadSkillList
