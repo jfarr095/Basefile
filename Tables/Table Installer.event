@@ -6,6 +6,8 @@
 
 #include "FE8 Nightmare modules\Chapter data editor\World Map Event table editor.event"
 
+#include "FE8 Nightmare modules\Class & Character editors\Class Level Cap Table.event"
+
 #include "FE8 Nightmare modules\Class & Character editors\FE8 Character Editor.event"
 
 #include "FE8 Nightmare modules\Class & Character editors\FE8 Class Editor.event"
@@ -37,6 +39,8 @@
 #include "FE8 Nightmare modules\Map sprite editors\Misc map sprite editor.event"
 
 #include "FE8 Nightmare modules\Map sprite editors\Standing map sprite editor.event"
+
+#include "FE8 Nightmare modules\Misc\Escape Quote Editor.event"
 
 #include "FE8 Nightmare modules\Poison\Poison Rework Gas Trap Table.event"
 

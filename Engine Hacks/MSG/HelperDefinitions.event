@@ -17,7 +17,6 @@
 
 #define prGetItemHPBonus     0x080163F0
 #define prGetItemPowBonus    0x08016420
-#define prGetItemMagBonus    GetItemMagBonus
 #define prGetItemSklBonus    0x08016450
 #define prGetItemSpdBonus    0x08016480
 #define prGetItemDefBonus    0x080164B0
@@ -106,7 +105,6 @@
 #define UNIT_MAXHP      0x12 // SByte
 #define UNIT_CURHP      0x13 // SByte
 #define UNIT_POWER      0x14 // SByte
-#define UNIT_MAGIC      0x3A // SByte
 #define UNIT_SKILL      0x15 // SByte
 #define UNIT_SPEED      0x16 // SByte
 #define UNIT_DEFENSE    0x17 // SByte

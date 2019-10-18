@@ -8,9 +8,8 @@
 .equ Get_Spd_Growth, Class_Level_Cap_Table+16
 .equ Get_Def_Growth, Class_Level_Cap_Table+20
 .equ Get_Res_Growth, Class_Level_Cap_Table+24
-.equ Get_Mag_Growth, Class_Level_Cap_Table+28
-.equ Get_Luk_Growth, Class_Level_Cap_Table+32
-.equ Growth_Options, Class_Level_Cap_Table+36
+.equ Get_Luk_Growth, Class_Level_Cap_Table+28
+.equ Growth_Options, Class_Level_Cap_Table+32
 
 @jumped here from 2BA28
 @r0=battle struct of person who's levelling up
@@ -166,23 +165,6 @@ add		r1,#0x78
 strb	r0,[r1]
 add		r5,r0
 cmp		r4,#0x0
-beq		MagGrowth
-cmp		r5,#0x0
-beq		MagGrowth
-b		CheckCaps
-
-MagGrowth:
-ldr		r0,Get_Mag_Growth
-mov		r14,r0
-mov		r0,r7
-.short	0xF800
-mov		r14,r6
-.short	0xF800
-mov		r1,r7
-add		r1,#0x7A
-strb	r0,[r1]
-add		r5,r0
-cmp		r4,#0x0
 beq		LukGrowth
 cmp		r5,#0x0
 beq		LukGrowth
@@ -305,20 +287,6 @@ mov		r0,r7
 add		r0,#0x78
 strb	r1,[r0]
 
-@Mag
-ldr		r0,Get_Mag_Growth
-mov		r14,r0
-mov		r0,r7
-.short	0xF800
-mov		r4,r0
-mul		r0,r6
-bl		DivideBy100
-add		r0,r4
-bl		DivideBy100
-mov		r0,r7
-add		r0,#0x7A
-strb	r1,[r0]
-
 @Luk
 ldr		r0,Get_Luk_Growth
 mov		r14,r0
@@ -332,17 +300,7 @@ bl		DivideBy100
 mov		r0,r7
 add		r0,#0x79
 strb	r1,[r0]
-
-CheckCaps:
-ldr		r0,Get_Char_Data
-mov		r14,r0
-ldrb	r0,[r7,#0xB]		@ allegiance byte
-.short	0xF800
-ldr		r1,Check_Caps_Func
-mov		r14,r1
-mov		r1,r7
-.short	0xF800
-b		GoBack
+b		CheckCaps
 
 DivideBy100:
 @takes r0=number, divides by 100, returns remainder in r0 and quotient in r1
@@ -355,6 +313,16 @@ add		r1,#1
 b		Label4
 RetDiv:
 bx		r14
+
+CheckCaps:
+ldr		r0,Get_Char_Data
+mov		r14,r0
+ldrb	r0,[r7,#0xB]		@ allegiance byte
+.short	0xF800
+ldr		r1,Check_Caps_Func
+mov		r14,r1
+mov		r1,r7
+.short	0xF800
 
 GoBack:
 pop		{r4-r7}				@ pop the saved registers off the stack (that we pushed at the top)

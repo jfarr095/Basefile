@@ -1,24 +1,13 @@
 TODO
 
-Magic Implementation
- > Add to all modulars (done)
- > Add equip statboost (done)
- > Add statbooster
- > Add debuffs
- > Adjust skills
-Add item skills
-Adjust magic sword patch
-Look into weird item AI tables
-Add tera's fancy staves to base
-Add manakete ASM
-Modularize portraits / class cards (?)
-Modularize magic animations (?)
-Expand tables
- > Animation table (done)
- > Text table (done)
- > Portrait table (done)
- > Class table (done)
- > Item table
- > Character table
- > Magic Anim table
-Split PList (?)
+Spirit Dust Item
+Skill Manual Items
+Switch to remove gold bag items
+Transformation animations
+IER
+
+
+for modulars
+
+add equip stuff
+max level for classes

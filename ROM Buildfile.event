@@ -27,6 +27,7 @@
 
     //Engine Hacks
     #include "Engine Hacks/_MasterHackInstaller.event"
+    #include "Engine Hacks/Extra Hacks.event"
 
     //World Map Events
     #include "World Map Events/World Map Events Installer.event"

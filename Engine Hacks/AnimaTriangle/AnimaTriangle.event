@@ -3,19 +3,19 @@
 
 	#define ANIMA_TRIANGLE
 	ALIGN 4
-	#inctext lyn "AnimaTriangle.elf" // Don't autohook because we're going to use a calculation loop alongside anything else touching WTA (like Tri-Adept)
+	#include "AnimaTriangle.lyn.event" // Don't autohook because we're going to use a calculation loop alongside anything else touching WTA (like Tri-Adept)
 
 	ALIGN 4 // Be sure to terminate each list with an 0x00!
 	FireList:
-	BYTE /* Other tomes to be considered fire */ 0x00
+	BYTE Fire Elfire /* Other tomes to be considered fire */ 0x00
 
 	ALIGN 4
 	ThunderList:
-	BYTE /* Other tomes to be considered thunder */ 0x00
+	BYTE Thunder Bolting /* Other tomes to be considered thunder */ 0x00
 
 	ALIGN 4
 	WindList:
-	BYTE /* Other tomes to be considered wind */ 0x00
+	BYTE Fimbulvetr WindSword /* Other tomes to be considered wind */ 0x00
 	
 #else
 	

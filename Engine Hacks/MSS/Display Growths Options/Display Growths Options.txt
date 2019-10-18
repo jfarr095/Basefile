@@ -2,10 +2,10 @@
 #define Display_Growths_Toggle
 
 //Write 0 if you don't want fixed growth mode to exist, or 1 if you want it to be an option
-#define Growth_Opt1 1
+#define Growth_Opt1 0
 
 //Write 0 if you want crusader scrolls and metis tome to affect growths when fixed mode is on, or 1 if they should NOT affect growths
-#define Growth_Opt2 0
+#define Growth_Opt2 1
 
 //Write 0 if you want only the first crusader scroll in a person's inventory to affect growths, or 1 for multiple ones to stack
 #define Growth_Opt3 1

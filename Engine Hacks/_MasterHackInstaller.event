@@ -43,15 +43,16 @@ ORG FreeSpaceBLRange //defined in custom definitions
   Unset_Attack_Flag:
   #incbin "SkillSystem/Internals/unset attack flag.dmp"
 
-  //get item mag bonus
-  GetItemMagBonus:
-  #incbin "StatGetters/_asm/GetItemMagBonus.dmp"
-  POIN ItemTable
-
-  ALIGN 4
-  // Magic Split
-  #include "Strmag/_Master Asm Installer.event"
-
+  #ifdef USE_STRMAG_SPLIT
+    
+    #ifndef USE_SAVE_EXPANSION
+	  #define USE_SAVE_EXPANSION // Force use of EMS with Str/Mag Split
+	#endif // USE_SAVE_EXPANSION
+	
+	#include "Strmag/BL Range.event"
+  
+  #endif // USE_STRMAG_SPLIT
+	
 #undef inBLRange
 POP
 
@@ -81,29 +82,25 @@ POP
 
   //Dragon Veins
   #include "DragonVeins/DragonVeins.event"
+  
+  // If uncommented, Leadership Stars will be implemented.
+  // Go to LeadershipStars/LeadershipStars.event to edit settings
+  // #include "LeadershipStars/LeadershipStars.event"
+  
 
   //Modular Stat Screen
-  #include "MSS/ModularStatScreen.event"
-
-  // Save/Suspend Expansion
-
-  #ifdef USE_SAVE_EXPANSION
-
-    // Use new EMS-based expansion
-
-    MESSAGE "Using EMS Save/Suspend Expansion"
-
-    #include "ExpandedModularSave/ExModularSave.event"
-
-  #else // USE_SAVE_EXPANSION
-
-    // Use legacy suspend expansion (for compatibility)
-
-    MESSAGE "Using Legacy Suspend Expansion"
-
-    #include "SuspendDebuffs/SuspendExpansion.event"
-
-  #endif // USE_SAVE_EXPANSION
+  #ifndef USE_STRMAG_SPLIT
+	#include "MSS/ModularStatScreen.event"
+  #else
+    #include "MSS/ModularStatScreenStrmag/ModularStatScreen.event"
+  #endif // USE_STRMAG_SPLIT
+  
+  // Strength/Magic Split
+  #ifdef USE_STRMAG_SPLIT
+  
+	#include "Strmag/_Master Asm Installer.event"
+	
+  #endif // USE_STRMAG_SPLIT
   
   // If uncommented, the Anima Triangle will be implemented.
   // Go to "AnimaTriangle/AnimaTriangle.event" to define your fire, thunder, and wind magic lists.
@@ -118,7 +115,7 @@ POP
   // If uncommented, PortraitSelectionASM will be implemented.
   // Go to "PortraitSelectionASM/PortraitSelectionASM.event" to configure your modular portrait options.
   // This patch normally conflitcs with Identity Problems and Random Mugs, but installing here remedies this.
-  #include "PortraitSelectASM/PortraitSelectionASM.event"
+  // #include "PortraitSelectASM/PortraitSelectionASM.event"
 	
   // If uncommented, StairsASM will be implemented.
   // This patch adds an entry to the Unit Menu, so installing here is necessary.
@@ -127,6 +124,10 @@ POP
   // If uncommented, Raid will be implemented.
   // This patch adds an entry to the Unit Menu, so installing here is necessary.
   #include "Raid/Raid.event"
+  
+  // If uncommented, Escape-Arrive will be implemented.
+  // /this adds entries to the Unit Menu and normally conflicts with Lunge and Stairs. Install here to avoid the conflicts.
+  #include "Escape-Arrive/Escape Installer.event"
   
   // Debuffs
   #include "SuspendDebuffs/Debuffs.event"
@@ -152,6 +153,9 @@ POP
   #include "EventAddTraps/EventAddTraps.event"
   #include "EventSendToConvoy/EventSendToConvoy.event"
 
+  // Fix gaining wexp from weapons you don't have wexp in (for Shadowgift/Lumina)
+  #include "Misc/FixWpnRnk.event"
+
   //Change Sick Status to Freeze
   #include "Freeze/Freeze.event"
   #include "Freeze/EventFreeze.event"
@@ -176,4 +180,28 @@ POP
   
   #include "UnitMenu.event"
   #include "Popups.event"
-  #include "Extra Hacks.event"
+
+  #ifdef STAIRS_ASM
+    #ifndef USE_SAVE_EXPANSION
+	  #define USE_SAVE_EXPANSION // Force use of EMS with Stairs (for saving the stair debuff byte in suspend).
+	#endif // USE_SAVE_EXPANSION
+  #endif // STAIRS_ASM
+  
+  // Save/Suspend Expansion
+  #ifdef USE_SAVE_EXPANSION
+
+    // Use new EMS-based expansion
+
+    MESSAGE "Using EMS Save/Suspend Expansion"
+
+    #include "ExpandedModularSave/ExModularSave.event"
+
+  #else // USE_SAVE_EXPANSION
+
+    // Use legacy suspend expansion (for compatibility)
+
+    MESSAGE "Using Legacy Suspend Expansion"
+
+    #include "SuspendDebuffs/SuspendExpansion.event"
+
+  #endif // USE_SAVE_EXPANSION
