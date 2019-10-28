@@ -1,4 +1,5 @@
 INLINE IERevampTable,Usability Routine Pointer,PrepScreen Usability Pointer,Targeting Routine Pointer,Item Effect Pointer
+Nothing,0x8028c04,0x802a100,0x802905c,0x802ff76
 Iron Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
 Slim Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
 Steel Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
