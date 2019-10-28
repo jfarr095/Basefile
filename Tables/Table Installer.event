@@ -16,7 +16,19 @@
 
 #include "FE8 Nightmare modules\Class & Character editors\Walking Sounds Editor.event"
 
-#include "FE8 Nightmare modules\Item editors\FE8 Item AI Table.event"
+#include "FE8 Nightmare modules\IER\FE8 Effect Anim Association Editor.event"
+
+#include "FE8 Nightmare modules\IER\FE8 Item AI Table.event"
+
+#include "FE8 Nightmare modules\IER\FE8 ItemBox Effect.event"
+
+#include "FE8 Nightmare modules\IER\FE8 Promotion Item Table.event"
+
+#include "FE8 Nightmare modules\IER\FE8 Staff AI Table.event"
+
+#include "FE8 Nightmare modules\IER\FE8_IER_StatboosterText.event"
+
+#include "FE8 Nightmare modules\IER\FE8_Item_Effect_Revamp.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Item Editor.event"
 
@@ -27,8 +39,6 @@
 #include "FE8 Nightmare modules\Item editors\FE8 Item Usability Pointer Editor.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Spell Association Editor.event"
-
-#include "FE8 Nightmare modules\Item editors\FE8 Staff AI Table.event"
 
 #include "FE8 Nightmare modules\Item editors\Stat Bonuses Editor.event"
 

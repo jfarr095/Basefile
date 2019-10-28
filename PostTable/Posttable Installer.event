@@ -1,3 +1,5 @@
+#define ItemTable ExpandedItemTable
+
 #include "Item Editor.event"
 #include "Table Locations.event"
 #include "Repointers.event"

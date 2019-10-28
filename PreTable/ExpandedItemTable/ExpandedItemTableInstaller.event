@@ -2,7 +2,10 @@ ALIGN 4
 ExpandedItemTable:
 #incbin "ExpandedItemTable.bin"
 
-#undef ItemTable
+#ifdef ItemTable
+	#undef ItemTable
+#endif
+
 #define ItemTable ExpandedItemTable
 
 #define SetItemRange(itemId,range) "PUSH; ORG ExpandedItemTable + (itemId * 0x24) + 0x19; BYTE range; POP"

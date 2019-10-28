@@ -80,6 +80,12 @@
   //ASMC Check Suite
   #include "ASMCCheckSuite/ASMC Check Installer.event"
 
+  //Change Chapter Objective Text
+  #include "ChangeChapterObjective/Installer.event"
+
+  //Item Effect Revamp
+  #include "ItemEffectRevamp/IERevamp_Installer.event"
+
   //Changes weapon ability bits
   // #include "Reaver and Double WTA Split/Installer.event"
 

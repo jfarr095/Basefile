@@ -8,7 +8,9 @@
 
 #include "ExpandedPortraitTable/expandportraittableinstaller.event"
 
-#include "ExpandedItemTable/ExpandedItemTableInstaller.event"
+//#include "ExpandedItemTable/ExpandedItemTableInstaller.event"
+#define SetItemRange(itemId,range) "PUSH; ORG ItemTable + (itemId * 0x24) + 0x19; BYTE range; POP"
+#define SetItemText(itemId,name,description) "PUSH; ORG ItemTable + (itemId * 0x24); SHORT name description; POP"
 
 #include "ExpandedItemIconTable/expandicontable.event"
 
