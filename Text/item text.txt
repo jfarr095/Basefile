@@ -51,3 +51,13 @@ Doubles the weapon traingle's effects.[X]
 
 ## ReaverDescription
 Inverts and triples the weapon triangle.[X]
+
+## SpiritDustName
+Spirit Dust[X]
+
+## SpiritDustDesc
+Increases Mag by 2 points.[N]
+Vanishes after use.[X]
+
+## SpiritDustUseText
+Raises Magic.[X]

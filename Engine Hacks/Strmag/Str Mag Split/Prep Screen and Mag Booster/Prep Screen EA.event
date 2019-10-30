@@ -196,6 +196,8 @@
 	
 	ORG ItemTable+(0x24*SpiritDust)+0x1E //Staff/use effect; without this, can't use the item outside prep screen
 	BYTE 0x11
+
+	/*
 	
 	ORG Mag_Booster_Item_Usability_Ptr
 	POIN 0x28B4C
@@ -214,6 +216,8 @@
 	//ORG 0x2F900
 	SHORT 0x385B 0x0080 0x1840 0x6800 0x4687 0x46C0 // sub r0, r0, #0x5B ; lsl r0, r0, #0x02 ; add r0, r0, r1 ; ldr r0, [ r0 ] ; mov r15, r0 ; nop.
 		// Rewrite switch jump.
+
+		*/
 	POP
 	
 	ALIGN 4

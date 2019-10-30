@@ -6,6 +6,8 @@
 
 #define textWeaponRankIncreasedTo $002
 #define LearnedSkillText $03A
+#define EnergyRingDesc $484
+#define EnergyRingUseText $4C2
 #define SS_TalkText $03B
 #define SS_SkillsText $03C
 #define SS_TalkRText $03D
@@ -277,5 +279,8 @@
 #define SetsLitanyDescription $9F1
 #define DoubleWTDescription $9F2
 #define ReaverDescription $9F3
+#define SpiritDustName $9F4
+#define SpiritDustDesc $9F5
+#define SpiritDustUseText $9F6
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

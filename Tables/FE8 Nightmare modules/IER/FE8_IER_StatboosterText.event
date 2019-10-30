@@ -4,13 +4,14 @@
 
 ALIGN 4
 StatBoosterTextTable:
-csvmacro012(0x5B,0x1C,0)
-csvmacro012(0x5C,0x13,0)
-csvmacro012(0x5D,0x15,0)
-csvmacro012(0x5E,0x16,0)
-csvmacro012(0x5F,0x17,0)
-csvmacro012(0x60,0x18,0)
-csvmacro012(0x61,0x19,0)
-csvmacro012(0x62,0x1A,0)
-csvmacro012(0x63,0x1B,0)
+csvmacro012(AngelicRobe,0x1C,0)
+csvmacro012(EnergyRing,0x13,0)
+csvmacro012(SpiritDust,0x14,0)
+csvmacro012(SecretBook,0x15,0)
+csvmacro012(Speedwing,0x16,0)
+csvmacro012(GoddessIcon,0x17,0)
+csvmacro012(Dragonshield,0x18,0)
+csvmacro012(Talisman,0x19,0)
+csvmacro012(Swiftsoles,0x1A,0)
+csvmacro012(BodyRing,0x1B,0)
 csvmacro012(0x0,0x25,0)

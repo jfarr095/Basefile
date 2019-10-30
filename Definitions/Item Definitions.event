@@ -10,3 +10,6 @@
 #define StoneShard 0xa7
 #define LunarBrace MoonBracelet
 #define SolarBrace SunBracelet
+#define Speedwing Speedwings
+
+#define SpiritDust 0xBC

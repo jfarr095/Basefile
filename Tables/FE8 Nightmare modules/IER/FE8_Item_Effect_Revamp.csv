@@ -187,7 +187,7 @@ Juna Fruit,JunaFruitUsability|IsPointer,JunaFruitPSUsability|IsPointer,NoItemTar
 200G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
 Black Gem,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
 Gold Gem,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
-0xBC,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+SpiritDust,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
 0xBD,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
 0xBE,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
 0xBF,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer

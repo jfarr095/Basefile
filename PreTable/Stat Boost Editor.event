@@ -77,3 +77,6 @@ StatBonus(HPB,10,10,10,SpdB,10,15,10,MovB,ConB)
 
 RavagerStats:
 StatBonus(HPB,15,15,15,SpdB,15,10,LckB,MovB,ConB)
+
+SpiritDustStats:
+StatBonus(HPB,StrB,2,SklB,SpdB,DefB,ResB,LckB,MovB,ConB)

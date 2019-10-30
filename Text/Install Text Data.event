@@ -25,6 +25,14 @@ __TEXTPROCESS03A:
 #incbin ".TextEntries\text_buildfileLearnedSkillText.fetxt.dmp"
 setText($3A, __TEXTPROCESS03A)
 
+__TEXTPROCESS484:
+#incbin ".TextEntries\text_buildfileEnergyRingDesc.fetxt.dmp"
+setText($484, __TEXTPROCESS484)
+
+__TEXTPROCESS4C2:
+#incbin ".TextEntries\text_buildfileEnergyRingUseText.fetxt.dmp"
+setText($4C2, __TEXTPROCESS4C2)
+
 __TEXTPROCESS03B:
 #incbin ".TextEntries\text_buildfileSS_TalkText.fetxt.dmp"
 setText($3B, __TEXTPROCESS03B)
@@ -1136,6 +1144,18 @@ setText($9F2, __TEXTPROCESS9F2)
 __TEXTPROCESS9F3:
 #incbin ".TextEntries\text_buildfileReaverDescription.fetxt.dmp"
 setText($9F3, __TEXTPROCESS9F3)
+
+__TEXTPROCESS9F4:
+#incbin ".TextEntries\text_buildfileSpiritDustName.fetxt.dmp"
+setText($9F4, __TEXTPROCESS9F4)
+
+__TEXTPROCESS9F5:
+#incbin ".TextEntries\text_buildfileSpiritDustDesc.fetxt.dmp"
+setText($9F5, __TEXTPROCESS9F5)
+
+__TEXTPROCESS9F6:
+#incbin ".TextEntries\text_buildfileSpiritDustUseText.fetxt.dmp"
+setText($9F6, __TEXTPROCESS9F6)
 
 }
 

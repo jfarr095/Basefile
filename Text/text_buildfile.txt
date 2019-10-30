@@ -11,6 +11,13 @@ Set health bar display[X]
 #first text ID in the free block
 Learned  [X]
 
+#0x484 EnergyRingDesc
+Increases Str by 2 points.[N]
+Vanishes after use.[X]
+
+#0x4C2 EnergyRingUseText
+Raises Strength.[X]
+
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"
