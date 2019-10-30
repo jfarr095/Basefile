@@ -138,7 +138,7 @@
   #define endWTATable "BYTE 0xFF 0xFF"
 
   #define defStatBoosts(hp, str, mag, skl, spd, luk, def, res) "BYTE hp str skl spd def res luk mag"
-  #define defWeaponDebuffs(str, skl, spd, luk, def, res) "BYTE (str|(skl<<4)) (spd|(def<<4)) (res|(luk<<4))"
+  #define defWeaponDebuffs(str, skl, spd, luk, def, res, mag) "BYTE (str|(skl<<4)) (spd|(def<<4)) (res|(luk<<4)) mag"
 
 //Class Types
 #define ArmorType 0x01
