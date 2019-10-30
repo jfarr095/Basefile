@@ -1,257 +1,257 @@
 INLINE IERevampTable,Usability Routine Pointer,PrepScreen Usability Pointer,Targeting Routine Pointer,Item Effect Pointer
-Nothing,0x8028c04,0x802a100,0x802905c,0x802ff76
-Iron Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
-Slim Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
-Steel Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
-Silver Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
-Iron Blade,0x8028c04,0x802a100,0x802905c,0x802ff76
-Steel Blade,0x8028c04,0x802a100,0x802905c,0x802ff76
-Silver Blade,0x8028c04,0x802a100,0x802905c,0x802ff76
-Poison Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
-Rapier,0x8028c04,0x802a100,0x802905c,0x802ff76
-Mani Katti (DUMMY),0x8028c04,0x802a100,0x802905c,0x802ff76
-Brave Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
-Shamshir,0x8028c04,0x802a100,0x802905c,0x802ff76
-Killing Edge,0x8028c04,0x802a100,0x802905c,0x802ff76
-Armorslayer,0x8028c04,0x802a100,0x802905c,0x802ff76
-Wyrmslayer,0x8028c04,0x802a100,0x802905c,0x802ff76
-Light Brand,0x8028c04,0x802a100,0x802905c,0x802ff76
-Runesword,0x8028c04,0x802a100,0x802905c,0x802ff76
-Lancereaver,0x8028c04,0x802a100,0x802905c,0x802ff76
-Zanbato,0x8028c04,0x802a100,0x802905c,0x802ff76
-Iron Lance,0x8028c04,0x802a100,0x802905c,0x802ff76
-Slim Lance,0x8028c04,0x802a100,0x802905c,0x802ff76
-Steel Lance,0x8028c04,0x802a100,0x802905c,0x802ff76
-Silver Lance,0x8028c04,0x802a100,0x802905c,0x802ff76
-Toxin Lance,0x8028c04,0x802a100,0x802905c,0x802ff76
-Brave Lance,0x8028c04,0x802a100,0x802905c,0x802ff76
-Killer Lance,0x8028c04,0x802a100,0x802905c,0x802ff76
-Horseslayer,0x8028c04,0x802a100,0x802905c,0x802ff76
-Javelin,0x8028c04,0x802a100,0x802905c,0x802ff76
-Spear,0x8028c04,0x802a100,0x802905c,0x802ff76
-Axereaver,0x8028c04,0x802a100,0x802905c,0x802ff76
-Iron Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Steel Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Silver Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Poison Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Brave Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Killer Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Halberd,0x8028c04,0x802a100,0x802905c,0x802ff76
-Hammer,0x8028c04,0x802a100,0x802905c,0x802ff76
-Devil Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Hand Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Tomahawk,0x8028c04,0x802a100,0x802905c,0x802ff76
-Swordreaver,0x8028c04,0x802a100,0x802905c,0x802ff76
-Swordslayer,0x8028c04,0x802a100,0x802905c,0x802ff76
-Hatchet,0x8028c04,0x802a100,0x802905c,0x802ff76
-Iron Bow,0x8028c04,0x802a100,0x802905c,0x802ff76
-Steel Bow,0x8028c04,0x802a100,0x802905c,0x802ff76
-Silver Bow,0x8028c04,0x802a100,0x802905c,0x802ff76
-Poison Bow,0x8028c04,0x802a100,0x802905c,0x802ff76
-Killer Bow,0x8028c04,0x802a100,0x802905c,0x802ff76
-Brave Bow,0x8028c04,0x802a100,0x802905c,0x802ff76
-Short Bow,0x8028c04,0x802a100,0x802905c,0x802ff76
-Longbow,0x8028c04,0x802a100,0x802905c,0x802ff76
-Ballista,0x8028c04,0x802a100,0x802905c,0x802ff76
-Iron Ballista,0x8028c04,0x802a100,0x802905c,0x802ff76
-Killer Ballista,0x8028c04,0x802a100,0x802905c,0x802ff76
-Fire,0x8028c04,0x802a100,0x802905c,0x802ff76
-Thunder,0x8028c04,0x802a100,0x802905c,0x802ff76
-Elfire,0x8028c04,0x802a100,0x802905c,0x802ff76
-Bolting,0x8028c04,0x802a100,0x802905c,0x802ff76
-Fimbulvetr,0x8028c04,0x802a100,0x802905c,0x802ff76
-Forblaze (DUMMY),0x8028c04,0x802a100,0x802905c,0x802ff76
-Excalibur,0x8028c04,0x802a100,0x802905c,0x802ff76
-Lightning,0x8028c04,0x802a100,0x802905c,0x802ff76
-Shine,0x8028c04,0x802a100,0x802905c,0x802ff76
-Divine,0x8028c04,0x802a100,0x802905c,0x802ff76
-Purge,0x8028c04,0x802a100,0x802905c,0x802ff76
-Aura,0x8028c04,0x802a100,0x802905c,0x802ff76
-Luce (DUMMY),0x8028c04,0x802a100,0x802905c,0x802ff76
-Flux,0x8028c04,0x802a100,0x802905c,0x802ff76
-Luna,0x8028c04,0x802a100,0x802905c,0x802ff76
-Nosferatu,0x8028c04,0x802a100,0x802905c,0x802ff76
-Eclipse,0x8028c04,0x802a100,0x802905c,0x802ff76
-Fenrir,0x8028c04,0x802a100,0x802905c,0x802ff76
-Gleipnir,0x8028c04,0x802a100,0x802905c,0x802ff76
-Heal,0x8028a8c,0x802a100,0x8028f94,0x802fe6c
-Mend,0x8028a8c,0x802a100,0x8028f94,0x802fe6c
-Recover,0x8028a8c,0x802a100,0x8028f94,0x802fe6c
-Physic,0x8028a9c,0x802a100,0x8028f9c,0x802fe6c
-Fortify,0x8028aac,0x802a100,0x8029014,0x802fe84
-Restore,0x8028abc,0x802a100,0x8028fbc,0x802fe8c
-Silence,0x8028aec,0x802a100,0x8028fcc,0x802fe74
-Sleep,0x8028afc,0x802a100,0x8028fd4,0x802fe74
-Berserk,0x8028b0c,0x802a100,0x8028fdc,0x802fe74
-Warp,0x8028b1c,0x802a100,0x8029004,0x802fea4
-Rescue,0x8028acc,0x802a100,0x8028fac,0x802fe94
-Torch (Staff),0x8028bc8,0x802a100,0x8029040,0x802ff60
-Hammerne,0x8028b2c,0x802a100,0x802900c,0x802feb4
-Unlock,0x8028b3c,0x802a100,0x8028ff4,0x802feac
-Barrier,0x8028adc,0x802a100,0x8028fec,0x802fe9c
-Dragon Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Angelic Robe,0x8028b4c,0x802a0d0,0x802905c,0x802ff40
-Energy Ring,0x8028b4c,0x802a0d0,0x802905c,0x802ff40
-Secret Book,0x8028b4c,0x802a0d0,0x802905c,0x802ff40
-Speedwings,0x8028b4c,0x802a0d0,0x802905c,0x802ff40
-Goddess Icon,0x8028b4c,0x802a0d0,0x802905c,0x802ff40
-Dragon Shield,0x8028b4c,0x802a0d0,0x802905c,0x802ff40
-Talisman,0x8028b4c,0x802a0d0,0x802905c,0x802ff40
-Swiftsoles,0x8028b4c,0x802a0d0,0x802905c,0x802ff40
-Body Ring,0x8028b4c,0x802a0d0,0x802905c,0x802ff40
-Hero Crest,0x8028b56,0x802a0da,0x802905c,0x802feec
-Knight Crest,0x8028b56,0x802a0da,0x802905c,0x802feec
-Orion's Bolt,0x8028b56,0x802a0da,0x802905c,0x802feec
-Elysian Whip,0x8028b56,0x802a0da,0x802905c,0x802feec
-Guiding Ring,0x8028b56,0x802a0da,0x802905c,0x802feec
-Chest Key,0x8028b80,0x802a100,0x802905c,0x802fee6
-Door Key,0x8028b88,0x802a100,0x802905c,0x802fee6
-Lockpick,0x8028b90,0x802a100,0x802905c,0x802fee6
-Vulnerary,0x8028b60,0x802a100,0x802905c,0x802fec4
-Elixir,0x8028b60,0x802a100,0x802905c,0x802fece
-Pure Water,0x8028b68,0x802a100,0x802905c,0x802fed6
-Antitoxin,0x8028b78,0x802a100,0x802905c,0x802fede
-Torch (Item),0x8028b70,0x802a100,0x802905c,0x802febc
-Filli Shield,0x8028c04,0x802a100,0x802905c,0x802ff76
-Member Card,0x8028c04,0x802a100,0x802905c,0x802ff76
-Silver Card,0x8028c04,0x802a100,0x802905c,0x802ff76
-White Gem,0x8028c04,0x802a100,0x802905c,0x802ff76
-Blue Gem,0x8028c04,0x802a100,0x802905c,0x802ff76
-Red Gem,0x8028c04,0x802a100,0x802905c,0x802ff76
-Gold,0x8028c04,0x802a100,0x802905c,0x802ff76
-Reginleif,0x8028c04,0x802a100,0x802905c,0x802ff76
-Chest Key (5),0x8028b80,0x802a100,0x802905c,0x802fee6
-Mine (Item),0x8028ba8,0x802a100,0x802901c,0x802ff50
-Light Rune (Item),0x8028bb8,0x802a100,0x802902c,0x802ff58
-Hoplon Guard,0x8028c04,0x802a100,0x802905c,0x802ff76
-Filla's Might,0x8028bd8,0x802a100,0x8029048,0x802ff68
-Ninis's Grace,0x8028bd8,0x802a100,0x8029048,0x802ff68
-Thor's Ire,0x8028bd8,0x802a100,0x8029048,0x802ff68
-Set's Litany,0x8028bd8,0x802a100,0x8029048,0x802ff68
-Shadowkiller,0x8028c04,0x802a100,0x802905c,0x802ff76
-Bright Lance,0x8028c04,0x802a100,0x802905c,0x802ff76
-Fiendcleaver,0x8028c04,0x802a100,0x802905c,0x802ff76
-Beacon Bow,0x8028c04,0x802a100,0x802905c,0x802ff76
-Sieglinde,0x8028c04,0x802a100,0x802905c,0x802ff76
-Battle Axe,0x8028c04,0x802a100,0x802905c,0x802ff76
-Ivaldi,0x8028c04,0x802a100,0x802905c,0x802ff76
-Master Seal,0x8028b56,0x802a0da,0x802905c,0x802feec
-Metis's Tome,0x8028be8,0x802a0e4,0x802905c,0x802ff40
-Heaven Seal (DUMMY),0x8028b56,0x802a0da,0x802905c,0x802feec
-Sharp Claw,0x8028c04,0x802a100,0x802905c,0x802ff76
-Latona,0x8028b98,0x802a100,0x8029014,0x802ff48
-Dragonspear,0x8028c04,0x802a100,0x802905c,0x802ff76
-Vidofnir,0x8028c04,0x802a100,0x802905c,0x802ff76
-Naglfar,0x8028c04,0x802a100,0x802905c,0x802ff76
-Wretched Air,0x8028c04,0x802a100,0x802905c,0x802ff76
-Audhulma,0x8028c04,0x802a100,0x802905c,0x802ff76
-Siegmund,0x8028c04,0x802a100,0x802905c,0x802ff76
-Garm,0x8028c04,0x802a100,0x802905c,0x802ff76
-Nidhogg,0x8028c04,0x802a100,0x802905c,0x802ff76
-Heavy Spear,0x8028c04,0x802a100,0x802905c,0x802ff76
-Short Spear,0x8028c04,0x802a100,0x802905c,0x802ff76
-Ocean Seal,0x8028b56,0x802a0da,0x802905c,0x802feec
-Lunar Brace,0x8028b56,0x802a0da,0x802905c,0x802feec
-Solar Brace,0x8028b56,0x802a0da,0x802905c,0x802feec
-1G,0x8028c04,0x802a100,0x802905c,0x802ff76
-5G,0x8028c04,0x802a100,0x802905c,0x802ff76
-10G,0x8028c04,0x802a100,0x802905c,0x802ff76
-50G,0x8028c04,0x802a100,0x802905c,0x802ff76
-100G,0x8028c04,0x802a100,0x802905c,0x802ff76
-3000G,0x8028c04,0x802a100,0x802905c,0x802ff76
-5000G,0x8028c04,0x802a100,0x802905c,0x802ff76
-Wind Sword,0x8028c04,0x802a100,0x802905c,0x802ff76
-Vulnerary,0x8028b60,0x802a100,0x802905c,0x802fec4
-Vulnerary (green note),0x8028b56,0x802a0da,0x802905c,0x802feec
-Vulnerary (red note),0x8028b60,0x802a100,0x802905c,0x802fec4
-Dance,0x8028c04,0x802a100,0x802905c,0x802ff76
-Nightmare,0x8028c04,0x802a100,0x802905c,0x802ff76
-Demon Stone (DUMMY),0x8028c04,0x802a100,0x802905c,0x802ff76
-Demon Light,0x8028c04,0x802a100,0x802905c,0x802ff76
-Ravager,0x8028c04,0x802a100,0x802905c,0x802ff76
-Dragonstone,0x8028c04,0x802a100,0x802905c,0x802ff76
-Demon Surge,0x8028c04,0x802a100,0x802905c,0x802ff76
-Shadowshot,0x8028c04,0x802a100,0x802905c,0x802ff76
-Rotten Claw,0x8028c04,0x802a100,0x802905c,0x802ff76
-Fetid Claw,0x8028c04,0x802a100,0x802905c,0x802ff76
-Poison Claw,0x8028c04,0x802a100,0x802905c,0x802ff76
-Lethal Talon,0x8028c04,0x802a100,0x802905c,0x802ff76
-Fiery Fang,0x8028c04,0x802a100,0x802905c,0x802ff76
-Hellfang,0x8028c04,0x802a100,0x802905c,0x802ff76
-Evil Eye,0x8028c04,0x802a100,0x802905c,0x802ff76
-Crimson Eye,0x8028c04,0x802a100,0x802905c,0x802ff76
-Stone,0x8028c04,0x802a100,0x802905c,0x802ff76
-Aircalibur,0x8028c04,0x802a100,0x802905c,0x802ff76
-Juna Fruit,0x8028bf8,0x802a0f4,0x802905c,0x802ff70
-150G,0x8028c04,0x802a100,0x802905c,0x802ff76
-200G,0x8028c04,0x802a100,0x802905c,0x802ff76
-Black Gem,0x8028c04,0x802a100,0x802905c,0x802ff76
-Gold Gem,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xBC,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xBD,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xBE,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xBF,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC0,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC1,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC2,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC3,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC4,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC5,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC6,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC7,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC8,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xC9,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xCA,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xCB,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xCC,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xCD,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xCE,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xCF,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD0,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD1,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD2,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD3,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD4,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD5,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD6,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD7,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD8,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xD9,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xDA,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xDB,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xDC,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xDD,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xDE,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xDF,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE0,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE1,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE2,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE3,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE4,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE5,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE6,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE7,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE8,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xE9,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xEA,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xEB,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xEC,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xED,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xEE,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xEF,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF0,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF1,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF2,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF3,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF4,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF5,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF6,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF7,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF8,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xF9,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xFA,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xFB,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xFC,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xFD,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xFE,0x8028c04,0x802a100,0x802905c,0x802ff76
-0xFF,0x8028c04,0x802a100,0x802905c,0x802ff76
+Nothing,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Iron Sword,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Slim Sword,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Steel Sword,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Silver Sword,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Iron Blade,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Steel Blade,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Silver Blade,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Poison Sword,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Rapier,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Mani Katti (DUMMY),NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Brave Sword,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Shamshir,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Killing Edge,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Armorslayer,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Wyrmslayer,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Light Brand,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Runesword,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Lancereaver,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Zanbato,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Iron Lance,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Slim Lance,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Steel Lance,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Silver Lance,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Toxin Lance,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Brave Lance,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Killer Lance,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Horseslayer,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Javelin,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Spear,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Axereaver,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Iron Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Steel Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Silver Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Poison Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Brave Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Killer Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Halberd,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Hammer,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Devil Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Hand Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Tomahawk,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Swordreaver,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Swordslayer,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Hatchet,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Iron Bow,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Steel Bow,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Silver Bow,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Poison Bow,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Killer Bow,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Brave Bow,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Short Bow,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Longbow,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Ballista,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Iron Ballista,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Killer Ballista,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Fire,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Thunder,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Elfire,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Bolting,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Fimbulvetr,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Forblaze (DUMMY),NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Excalibur,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Lightning,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Shine,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Divine,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Purge,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Aura,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Luce (DUMMY),NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Flux,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Luna,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Nosferatu,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Eclipse,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Fenrir,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Gleipnir,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Heal,HealingStaffUsability|IsPointer,NoItemPSUsability|IsPointer,HealingStaffTargeting|IsPointer,HealingStaffEffect|IsPointer
+Mend,HealingStaffUsability|IsPointer,NoItemPSUsability|IsPointer,HealingStaffTargeting|IsPointer,HealingStaffEffect|IsPointer
+Recover,HealingStaffUsability|IsPointer,NoItemPSUsability|IsPointer,HealingStaffTargeting|IsPointer,HealingStaffEffect|IsPointer
+Physic,PhysicStaffUsability|IsPointer,NoItemPSUsability|IsPointer,PhysicStaffTargeting|IsPointer,HealingStaffEffect|IsPointer
+Fortify,FortifyStaffUsability|IsPointer,NoItemPSUsability|IsPointer,FortifyStaffTargeting|IsPointer,FortifyStaffEffect|IsPointer
+Restore,RestoreStaffUsability|IsPointer,NoItemPSUsability|IsPointer,RestoreStaffTargeting|IsPointer,RestoreStaffEffect|IsPointer
+Silence,SilenceStaffUsability|IsPointer,NoItemPSUsability|IsPointer,SilenceStaffTargeting|IsPointer,StatusStaffEffect|IsPointer
+Sleep,SleepStaffUsability|IsPointer,NoItemPSUsability|IsPointer,SleepStaffTargeting|IsPointer,StatusStaffEffect|IsPointer
+Berserk,BerserkStaffUsability|IsPointer,NoItemPSUsability|IsPointer,BerserkStaffTargeting|IsPointer,StatusStaffEffect|IsPointer
+Warp,WarpStaffUsability|IsPointer,NoItemPSUsability|IsPointer,WarpStaffTargeting|IsPointer,WarpStaffEffect|IsPointer
+Rescue,RescueStaffUsability|IsPointer,NoItemPSUsability|IsPointer,RescueStaffTargeting|IsPointer,RescueStaffEffect|IsPointer
+Torch (Staff),TorchStaffUsability|IsPointer,NoItemPSUsability|IsPointer,TorchStaffTargeting|IsPointer,TorchStaffEffect|IsPointer
+Hammerne,HammerneStaffUsability|IsPointer,NoItemPSUsability|IsPointer,HammerneStaffTargeting|IsPointer,HammerneStaffEffect|IsPointer
+Unlock,UnlockStaffUsability|IsPointer,NoItemPSUsability|IsPointer,UnlockStaffTargeting|IsPointer,UnlockStaffEffect|IsPointer
+Barrier,BarrierStaffUsability|IsPointer,NoItemPSUsability|IsPointer,BarrierStaffTargeting|IsPointer,BarrierStaffEffect|IsPointer
+Dragon Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Angelic Robe,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
+Energy Ring,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
+Secret Book,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
+Speedwings,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
+Goddess Icon,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
+Dragon Shield,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
+Talisman,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
+Swiftsoles,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
+Body Ring,StatBoosterUsability|IsPointer,StatBoosterPSUsability|IsPointer,NoItemTargeting|IsPointer,StatBoosterEffect|IsPointer
+Hero Crest,PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+Knight Crest,PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+Orion's Bolt,PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+Elysian Whip,PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+Guiding Ring,PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+Chest Key,ChestKeyUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,KeyEffect|IsPointer
+Door Key,DoorKeyUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,KeyEffect|IsPointer
+Lockpick,LockpickUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,KeyEffect|IsPointer
+Vulnerary,HealingItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,VulneraryEffect|IsPointer
+Elixir,HealingItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,ElixirEffect|IsPointer
+Pure Water,PureWaterUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PureWaterEffect|IsPointer
+Antitoxin,AntitoxinUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,AntitoxinEffect|IsPointer
+Torch (Item),TorchUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,TorchEffect|IsPointer
+Filli Shield,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Member Card,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Silver Card,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+White Gem,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Blue Gem,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Red Gem,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Gold,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Reginleif,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Chest Key (5),ChestKeyUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,KeyEffect|IsPointer
+Mine (Item),MineUsability|IsPointer,NoItemPSUsability|IsPointer,MineTargeting|IsPointer,MineEffect|IsPointer
+Light Rune (Item),LightRuneUsability|IsPointer,NoItemPSUsability|IsPointer,LightRuneTargeting|IsPointer,LightRuneEffect|IsPointer
+Hoplon Guard,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Filla's Might,DancerRingUsability|IsPointer,NoItemPSUsability|IsPointer,DancerRingTargeting|IsPointer,DancerRingEffect|IsPointer
+Ninis's Grace,DancerRingUsability|IsPointer,NoItemPSUsability|IsPointer,DancerRingTargeting|IsPointer,DancerRingEffect|IsPointer
+Thor's Ire,DancerRingUsability|IsPointer,NoItemPSUsability|IsPointer,DancerRingTargeting|IsPointer,DancerRingEffect|IsPointer
+Set's Litany,DancerRingUsability|IsPointer,NoItemPSUsability|IsPointer,DancerRingTargeting|IsPointer,DancerRingEffect|IsPointer
+Shadowkiller,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Bright Lance,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Fiendcleaver,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Beacon Bow,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Sieglinde,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Battle Axe,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Ivaldi,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Master Seal,PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+Metis's Tome,MetissTomeUsability|IsPointer,MetissTomePSUsability|IsPointer,NoItemTargeting|IsPointer,MetissTomeEffect|IsPointer
+Heaven Seal (DUMMY),PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+Sharp Claw,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Latona,LatonaStaffUsability|IsPointer,NoItemPSUsability|IsPointer,LatonaStaffTargeting|IsPointer,LatonaStaffEffect|IsPointer
+Dragonspear,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Vidofnir,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Naglfar,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Wretched Air,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Audhulma,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Siegmund,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Garm,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Nidhogg,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Heavy Spear,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Short Spear,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Ocean Seal,PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+Lunar Brace,PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+Solar Brace,PromotionItemUsability|IsPointer,PromotionItemPSUsability|IsPointer,NoItemTargeting|IsPointer,PromotionItemEffect|IsPointer
+1G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+5G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+10G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+50G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+100G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+3000G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+5000G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Wind Sword,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Vulnerary,HealingItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,VulneraryEffect|IsPointer
+Vulnerary (green note),HealingItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,VulneraryEffect|IsPointer
+Vulnerary (red note),HealingItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,VulneraryEffect|IsPointer
+Dance,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Nightmare,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Demon Stone (DUMMY),NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Demon Light,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Ravager,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Dragonstone,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Demon Surge,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Shadowshot,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Rotten Claw,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Fetid Claw,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Poison Claw,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Lethal Talon,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Fiery Fang,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Hellfang,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Evil Eye,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Crimson Eye,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Stone,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Aircalibur,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Juna Fruit,JunaFruitUsability|IsPointer,JunaFruitPSUsability|IsPointer,NoItemTargeting|IsPointer,JunaFruitEffect|IsPointer
+150G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+200G,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Black Gem,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+Gold Gem,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xBC,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xBD,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xBE,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xBF,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC0,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC1,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC2,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC3,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC4,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC5,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC6,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC7,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC8,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xC9,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xCA,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xCB,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xCC,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xCD,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xCE,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xCF,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD0,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD1,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD2,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD3,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD4,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD5,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD6,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD7,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD8,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xD9,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xDA,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xDB,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xDC,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xDD,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xDE,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xDF,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE0,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE1,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE2,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE3,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE4,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE5,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE6,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE7,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE8,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xE9,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xEA,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xEB,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xEC,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xED,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xEE,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xEF,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF0,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF1,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF2,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF3,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF4,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF5,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF6,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF7,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF8,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xF9,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xFA,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xFB,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xFC,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xFD,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xFE,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
+0xFF,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer

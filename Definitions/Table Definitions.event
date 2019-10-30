@@ -306,4 +306,103 @@
 #define DefeatBossFlag 0x2
 #define GameOverFlag 0x65
 
+// Item Effect Revamp //
+
+//Item Usability
+#define NoItemUsability 0x28c04
+#define HealingStaffUsability 0x28a8c
+#define PhysicStaffUsability 0x28a9c
+#define FortifyStaffUsability 0x28aac
+#define RestoreStaffUsability 0x28abc
+#define SilenceStaffUsability 0x28aec
+#define SleepStaffUsability 0x28afc
+#define BerserkStaffUsability 0x28b0c
+#define WarpStaffUsability 0x28b1c
+#define RescueStaffUsability 0x28acc
+#define TorchStaffUsability 0x28bc8
+#define HammerneStaffUsability 0x28b2c
+#define UnlockStaffUsability 0x28b3c
+#define BarrierStaffUsability 0x28adc
+#define LatonaStaffUsability 0x28b98
+#define StatBoosterUsability 0x28b4c
+#define PromotionItemUsability 0x28b56
+#define ChestKeyUsability 0x28b80
+#define DoorKeyUsability 0x28b88
+#define LockpickUsability 0x28b90
+#define HealingItemUsability 0x28b60
+#define PureWaterUsability 0x28b68
+#define AntitoxinUsability 0x28b78
+#define TorchUsability 0x28b70
+#define MineUsability 0x28ba8
+#define LightRuneUsability 0x28bb8
+#define DancerRingUsability 0x28bd8
+#define MetissTomeUsability 0x28be8
+#define JunaFruitUsability 0x28bf8
+
+//Prep Screen Usability
+#define NoItemPSUsability 0x2a100
+#define StatBoosterPSUsability 0x2a0d0
+#define PromotionItemPSUsability 0x2a0da
+#define MetissTomePSUsability 0x2a0e4
+#define JunaFruitPSUsability 0x2a0f4
+
+//Targeting Routine
+#define NoItemTargeting 0x2905c
+#define SelfTargeting NoItemTargeting
+#define HealingStaffTargeting 0x28f94
+#define PhysicStaffTargeting 0x28f9c
+#define FortifyStaffTargeting 0x29014
+#define RestoreStaffTargeting 0x28fbc
+#define SilenceStaffTargeting 0x28fcc
+#define SleepStaffTargeting 0x28fd4
+#define BerserkStaffTargeting 0x28fdc
+#define WarpStaffTargeting 0x29004
+#define RescueStaffTargeting 0x28fac
+#define TorchStaffTargeting 0x29040
+#define HammerneStaffTargeting 0x2900c
+#define UnlockStaffTargeting 0x28ff4
+#define BarrierStaffTargeting 0x28fec
+#define LatonaStaffTargeting 0x29014
+#define MineTargeting 0x2901c
+#define LightRuneTargeting 0x2902c
+#define DancerRingTargeting 0x29048
+
+//Item Effects
+#define NoItemEffect 0x2ff76
+#define HealingStaffEffect 0x2fe6c
+#define FortifyStaffEffect 0x2fe84
+#define RestoreStaffEffect 0x2fe8c
+#define StatusStaffEffect 0x2fe74
+#define WarpStaffEffect 0x2fea4
+#define RescueStaffEffect 0x2fe94
+#define TorchStaffEffect 0x2ff60
+#define HammerneStaffEffect 0x2feb4
+#define UnlockStaffEffect 0x2feac
+#define BarrierStaffEffect 0x2fe9c
+#define LatonaStaffEffect 0x2ff48
+#define StatBoosterEffect 0x2ff40
+#define PromotionItemEffect 0x2feec
+#define KeyEffect 0x2fee6
+#define VulneraryEffect 0x2fec4
+#define ElixirEffect 0x2fece
+#define PureWaterEffect 0x2fed6
+#define AntitoxinEffect 0x2fede
+#define TorchEffect 0x2febc
+#define MineEffect 0x2ff50
+#define LightRuneEffect 0x2ff58
+#define DancerRingEffect 0x2ff68
+#define MetissTomeEffect 0x2ff40
+#define JunaFruitEffect 0x2ff70
+
+//Staff AI
+#define HealingStaffAI 0x3fbb9
+#define PhysicStaffAI 0x3fd31
+#define FortifyStaffAI 0x3ff01
+#define RestoreStaffAI 0x40165
+#define SilenceStaffAI 0x40355
+#define SleepBerserkStaffAI 0x404e1
+#define WarpStaffAI 0x4000d
+#define RescueStaffAI 0x3fd31
+#define BarrierStaffAI 0x40665 //nonfunctional
+
 #endif

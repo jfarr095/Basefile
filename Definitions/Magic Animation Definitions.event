@@ -4,7 +4,7 @@
 #define ArrowAnimation 0x2
 #define JavelinAnimation 0x3
 #define BallistaBoltAnimation 0x10
-#define DanceAnimation 0xe
+#define RefreshAnimation 0xE
 #define FlametongueAnimation 0x13
 #define FireAnimation 0x16
 #define ElfireAnimation 0x17
@@ -23,9 +23,12 @@
 #define MendAnimation 0x27
 #define RecoverAnimation 0x28
 #define PhysicAnimation 0x29
+#define FortifyAnimation 0x2a //broken
+#define LatonaAnimation 0x2b //broken
 #define RestoreAnimation 0x2c
 #define SilenceAnimation 0x2d
 #define SleepAnimation 0x2e
+#define HammerneAnimation 0x2f
 #define BerserkAnimation 0x30
 #define BarrierAnimation 0x31
 #define ShineAnimation 0x33

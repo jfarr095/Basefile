@@ -22,15 +22,15 @@
 //#ifndef MovingMapSpriteTable
 	//#define MovingMapSpriteTable 0x9a2e00
 //#endif
-#ifndef ItemTargetTable
-	#define ItemTargetTable 0x28e8c
-#endif
-#ifndef ItemUsablityTable
-	#define ItemUsablityTable 0x288b0
-#endif
-#ifndef ItemEffectTable
-	#define ItemEffectTable 0x2fc90
-#endif
+//#ifndef ItemTargetTable
+	//#define ItemTargetTable 0x28e8c
+//#endif
+//#ifndef ItemUsablityTable
+	//#define ItemUsablityTable 0x288b0
+//#endif
+//#ifndef ItemEffectTable
+	//#define ItemEffectTable 0x2fc90
+//#endif
 //#ifndef SpellAssociationTable
 	//#define SpellAssociationTable 0x8afbd8
 //#endif
