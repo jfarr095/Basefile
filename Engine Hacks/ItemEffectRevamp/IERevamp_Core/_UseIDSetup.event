@@ -19,7 +19,7 @@
 
 #ifdef _FE8_
 	ALIGN 4
-	//MESSAGE Applying Item Effect Revamp
+	MESSAGE "Applying Item Effect Revamp"
 	
 	/*
 	EffectJumpTable:
@@ -124,6 +124,10 @@
 	ORG $30038
 		SHORT 0x3030 0x7001 //add 	r0,0x30; strb 	r1,[r0]
 		
+	ORG $5767C
+		BL(IER_TargetUnitSpellCheck)
+	ORG $57694
+		BL(IER_TargetUnitSpellCheck)
 	//set up a separate animation association table for item effects
 	ORG $5800C
 		BL($78258)	//use spell anim id getter instead of manually looping
@@ -134,7 +138,7 @@
 		#include "ItemAnimAssociation_p1.event"
 		POIN SpellAssociationTable UseEffectAnimTable
 	
-	//for use space where tables used to be to put stuff in bl range
+	//using space where tables used to be to put stuff in bl range
 	ORG $28E80 //$288A8
 		EffectJumpTable:
 		SHORT 0x4B03	//ldr r3, Item_GetStat_EffectID
@@ -157,11 +161,24 @@
 		POIN IBArray
 		
 		Item_GetStat_EPV_Jump:
+		#ifndef ITEM_STAT_EFFECTVALUE
+		// moved from "../ItemStatMacros.event" to fit in bl range
+			#define ITEM_STAT_EFFECTVALUE
+			ALIGN 4
+			Item_GetStat_EPV:
+			#include "GetItemStat_EPV.event"
+		/*Effect Value is a byte that will be reserved in item data
+		to make effects more modular, here it is used to hold the 
+		status/duration of status staves and dancer rings*/
+		#else
+		//just in case this was already installed outside of bl range
 		jumpToHack(Item_GetStat_EPV)
+		#endif
 
 		ALIGN 4
 		#include "ItemAnimAssociation_p2.event"
 		#include "ItemAnimAssociation_p3.event"
+		#include "ItemAnimAssociation_p4.event"
 		#include "LockpickCheck.event"
 	POP
 	

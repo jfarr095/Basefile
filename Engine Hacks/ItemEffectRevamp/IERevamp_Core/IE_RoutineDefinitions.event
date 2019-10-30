@@ -17,7 +17,7 @@
 		//	returns 0 otherwise
 		#endif
 		
-	//Item Related Routines
+	//Unit Related Routines
 		#ifndef DecrementItemUses
 			#define DecrementItemUses 0x16AEC
 			//arguments: r0= item/uses short
@@ -39,6 +39,12 @@
 			#define InflictStatusOnUnit 0x178F4
 		//arguments: r0 = unit pointer, r1 = status, r2 = turn duration
 		//inflicts a status (dancer ring effects, etc.) on the given unit for the given duration
+		#endif
+		
+		#ifndef Item_Decrement_Uses
+			#define Item_Decrement_Uses 0x18994
+		//arguments: r0 = unit pointer, r1 = item slot
+		//decrease uses of unit's item by 1
 		#endif
 		
 		#ifndef RamUnitByID
@@ -65,7 +71,7 @@
 			@r0 = unit pointer
 		*/
 		#endif
-		
+	//other	
 		#define StartItemGraphics 0x2CA14
 		//arguments: none
 		//handles displaying graphics (weapon/staff animations, exp bar)
@@ -93,6 +99,23 @@
 		/*
 		arguments: r0 = unit pointer
 		check if unit is adjacent to a door tile with a DOOR event
+		*/
+		#endif
+		
+		#ifndef GetTrapData
+			#define GetTrapData $2EB8C
+		/*
+		arguments: r0 = trap index
+		return pointer to entry in trap data table
+		*/
+		#endif
+		
+		#ifndef GetSpellAnimID
+			#define GetSpellAnimID $57FF8
+		/*
+		arguments: r0 = class id, r1 = item id
+		returns the spell anim id from the spell assocation table for the given item
+		checks class id to give the appopriate javelin animation
 		*/
 		#endif
 		
