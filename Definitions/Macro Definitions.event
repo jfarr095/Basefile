@@ -139,3 +139,4 @@
 #define MuteMusic "MUSCFAST 0x7FFF"
 #define SetHP(number,x,y) "SVAL 0x1 number; SVAL 0xB Coords(x,y); SET_HP 0xFFFE"
 #define TakeGold(Amount) "SVAL 0x3 Amount; GIVETOSLOT3"
+#define TextNoFade(bg,text) "REMOVEPORTRAITS; SVAL 0x2 bg; CALL 0x9EE2E8; TEXTSTART; TEXTSHOW text; TEXTEND; REMA"

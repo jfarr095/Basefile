@@ -14,6 +14,7 @@
 #include "Mug Definitions.event"
 #include "Palette Definitions.event"
 #include "PList Definitions.event"
+#include "Stat Setters.event"
 #include "Table Definitions.event"
 #include "Tileset Definitions.event"
 
