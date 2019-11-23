@@ -14,7 +14,7 @@ cmp 	r0, #0x0
 beq 	SkipLockpick
 mov 	r0, r4
 @load lockpick effect ID to r1
-mov 	r1, #0x20
+mov 	r1, #0x6B
 bl 	Inventory_EIDCheck_Jump
 cmp 	r0, #0x0
 bge 	PopBack
@@ -25,19 +25,19 @@ cmp 	r5, #0x21
 bne 	DefaultCheck
 mov 	r0, r4
 @Load chest key ID to r1
-mov 	r1, #0x1E
+mov 	r1, #0x69
 bl 	Inventory_EIDCheck_Jump
 b MasterKeyCheck
 
 DoorKeyCheck:
 mov 	r0, r4
 @Load door key ID to r1
-mov 	r1, #0x1F
+mov 	r1, #0x6A
 bl 	Inventory_EIDCheck_Jump
 MasterKeyCheck:
 cmp 	r0, #0x0
 bge 	PopBack
-mov 	r6, #0x26
+mov 	r6, #0x00
 DefaultCheck:
 mov 	r0, r4
 mov 	r1, r6
