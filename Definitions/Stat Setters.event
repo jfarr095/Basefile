@@ -86,6 +86,7 @@
 // Item
 #define SetItemType(ItemID,Type) "PUSH; ORG ItemTable + 0x7 + (ItemID * 36); BYTE Type; POP"
 #define SetItemAbility1(ItemID,Ability) "PUSH; ORG ItemTable + 0x8 + (ItemID * 36); BYTE Ability; POP"
+#define SetItemAbility4(ItemID,Ability) "PUSH; ORG ItemTable + 0xB + (ItemID * 36); BYTE Ability; POP"
 #define SetItemDurability(ItemID,Durability) "PUSH; ORG ItemTable + 0x14 + (ItemID * 36); BYTE Durability; POP"
 #define SetItemMt(ItemID,Might) "PUSH; ORG ItemTable + 0x15 + (ItemID * 36); BYTE Might; POP"
 #define SetItemAccuracy(ItemID,Acc) "PUSH; ORG ItemTable + 0x16 + (ItemID * 36); BYTE Acc; POP"

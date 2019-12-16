@@ -1,17 +1,17 @@
-#define csvmacro010(arg000,arg001,arg002,arg003) "SHORT arg000 arg001 ;WORD arg002 arg003 "
+#define csvmacro012(arg000,arg001,arg002,arg003) "SHORT arg000 arg001 ;WORD arg002 arg003 "
 
 
 
 ALIGN 4
 PromotionItemTable:
-csvmacro010(HeroCrest,0x0,0x88ADF57,0x0)
-csvmacro010(KnightCrest,0x0,0x88ADF5E,0x0)
-csvmacro010(OrionsBolt,0x0,0x88ADF64,0x0)
-csvmacro010(ElysianWhip,0x0,0x88ADF67,0x0)
-csvmacro010(GuidingRing,0x0,0x88ADF6B,0x0)
-csvmacro010(MasterSeal,0x0,0x88ADF76,0x0)
-csvmacro010(HeavenSeal,0x0,0x88ADF96,PromoLordCheck|IsPointer|1)
-csvmacro010(OceanSeal,0x0,0x88ADF9E,0x0)
-csvmacro010(LunarBrace,0x0,0x88ADFA4,PromoLordCheck|IsPointer|1)
-csvmacro010(SolarBrace,0x0,0x88ADFA6,PromoLordCheck|IsPointer|1)
-csvmacro010(0xFFFF,0x0,0x0,0x0)
+csvmacro012(HeroCrest,0x0,0x88ADF57,0x0)
+csvmacro012(KnightCrest,0x0,0x88ADF5E,0x0)
+csvmacro012(OrionsBolt,0x0,0x88ADF64,0x0)
+csvmacro012(ElysianWhip,0x0,0x88ADF67,0x0)
+csvmacro012(GuidingRing,0x0,0x88ADF6B,0x0)
+csvmacro012(MasterSeal,0x0,0x88ADF76,0x0)
+csvmacro012(HeavenSeal,0x0,0x88ADF96,PromoLordCheck|IsPointer|1)
+csvmacro012(OceanSeal,0x0,0x88ADF9E,0x0)
+csvmacro012(LunarBrace,0x0,0x88ADFA4,PromoLordCheck|IsPointer|1)
+csvmacro012(SolarBrace,0x0,0x88ADFA6,PromoLordCheck|IsPointer|1)
+csvmacro012(0xFFFF,0x0,0x0,0x0)

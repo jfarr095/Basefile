@@ -1,17 +1,17 @@
-#define csvmacro012(arg000,arg001,arg002) "SHORT arg000 arg001 ;WORD arg002 "
+#define csvmacro014(arg000,arg001,arg002) "SHORT arg000 arg001 ;WORD arg002 "
 
 
 
 ALIGN 4
 StatBoosterTextTable:
-csvmacro012(AngelicRobe,0x1C,0)
-csvmacro012(EnergyRing,0x13,0)
-csvmacro012(SpiritDust,0x14,0)
-csvmacro012(SecretBook,0x15,0)
-csvmacro012(Speedwing,0x16,0)
-csvmacro012(GoddessIcon,0x17,0)
-csvmacro012(Dragonshield,0x18,0)
-csvmacro012(Talisman,0x19,0)
-csvmacro012(Swiftsoles,0x1A,0)
-csvmacro012(BodyRing,0x1B,0)
-csvmacro012(0x0,0x25,0)
+csvmacro014(AngelicRobe,0x1C,0)
+csvmacro014(EnergyRing,0x13,0)
+csvmacro014(SpiritDust,0x14,0)
+csvmacro014(SecretBook,0x15,0)
+csvmacro014(Speedwing,0x16,0)
+csvmacro014(GoddessIcon,0x17,0)
+csvmacro014(Dragonshield,0x18,0)
+csvmacro014(Talisman,0x19,0)
+csvmacro014(Swiftsoles,0x1A,0)
+csvmacro014(BodyRing,0x1B,0)
+csvmacro014(0x0,0x25,0)

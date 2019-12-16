@@ -2,6 +2,10 @@
 
 #include "Table Definitions.txt"
 
+#include "FE8 Nightmare modules\AdvWeaponLocks\WeaponLockArray.event"
+
+#include "FE8 Nightmare modules\Biorhythm\Biorhythm Editor.event"
+
 #include "FE8 Nightmare modules\Chapter data editor\World Map Cutscene table editor.event"
 
 #include "FE8 Nightmare modules\Chapter data editor\World Map Event table editor.event"
@@ -67,6 +71,4 @@
 #include "FE8 Nightmare modules\Skills\FE8 Personal Skill Editor.event"
 
 #include "FE8 Nightmare modules\Skills\FE8 Skill Animation Editor.event"
-
-#include "FE8 Nightmare modules\Skills\FE8 Skill Description Editor.event"
 
