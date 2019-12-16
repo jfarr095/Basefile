@@ -92,4 +92,5 @@
   //255 Crit = Cannot crit (broken?)
   // #include "FE8-Modified Crit Stuff/FE8-Modified Crit Stuff EA.event"
 
-  
+  //Enfeeble Status
+  #include "Enfeeble/Enfeeble.event"

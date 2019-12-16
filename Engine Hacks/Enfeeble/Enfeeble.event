@@ -1,0 +1,13 @@
+//#define EnfeebleStatusID 1 //status ID
+
+ALIGN 4
+prEnfeebleStatCut:
+#incbin "EnfeebleStatCut.dmp"
+WORD EnfeebleStatusID
+
+//disable poison's effect
+//PUSH
+//ORG 0x25A28
+//SHORT 0xE00F
+//POP
+

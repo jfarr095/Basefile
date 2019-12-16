@@ -875,6 +875,10 @@ ALIGN 4
 
 	MMBBuildDVRoutines:
 
+		#ifdef MMBIconPrep
+			POIN MMBPrepIcons
+		#endif // MMBIconPrep
+
 		#ifdef MMBStandardTilemap
 			POIN MMBDrawTilemap
 		#endif // MMBStandardTilemap
@@ -886,5 +890,3 @@ ALIGN 4
 	WORD 0
 
 #endif // DRAGON_VEINS
-
-MESSAGE MMBDrawDVTextCentered

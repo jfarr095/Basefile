@@ -16,14 +16,14 @@
     //Text
     #include "Text/Install Text Data.event"
 
-    //Graphics
-    #include "Graphics/MasterGraphicInstaller.event"
-
     //CSV tables
     #include "Tables/Table Installer.event"
 
     //Post-table data
     #include "PostTable/Posttable Installer.event"
+
+    //Graphics
+    #include "Graphics/MasterGraphicInstaller.event"
 
     //Engine Hacks
     #include "Engine Hacks/_MasterHackInstaller.event"

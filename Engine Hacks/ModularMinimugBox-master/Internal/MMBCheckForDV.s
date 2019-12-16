@@ -16,6 +16,18 @@ MMBCheckForDV:
 
 	push	{r14}
 
+	@ Return false if unit at cursor
+
+	ldr		r0, =MMBGetUnitAtCursor
+	mov		r14, r0
+	.short 0xF800
+
+	mov		r1, r0
+	mov		r0, #0x00
+
+	cmp		r1, #0x00
+	bne		End
+
 	ldr		r0, =GameDataStruct
 
 	mov		r2, #0x16 @ Y coordinate

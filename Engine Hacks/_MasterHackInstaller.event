@@ -84,8 +84,13 @@ POP
   #include "DragonVeins/DragonVeins.event"
   
   // If uncommented, Leadership Stars will be implemented.
-  // Go to LeadershipStars/LeadershipStars.event to edit settings
+  // Go to LeadershipStars/LeadershipStars.event to edit settings.
   // #include "LeadershipStars/LeadershipStars.event"
+  
+  // If uncommented, Biorhythm will be implemented.
+  // Go to "Biorhythm/Biorhythm.event" to edit settings.
+  // This adds an entry to the Pre-Battle loop and edits the status screen. There is currently no stat screen template that contains both Leadership Stars and Biorhythm, but they do function in tandem if you wish to make one.
+  // #include "Biorhythm/Biorhythm.event"
   
 
   //Modular Stat Screen
@@ -123,11 +128,11 @@ POP
   
   // If uncommented, Raid will be implemented.
   // This patch adds an entry to the Unit Menu, so installing here is necessary.
-  #include "Raid/Raid.event"
+  // #include "Raid/Raid.event"
   
   // If uncommented, Escape-Arrive will be implemented.
   // /this adds entries to the Unit Menu and normally conflicts with Lunge and Stairs. Install here to avoid the conflicts.
-  #include "Escape-Arrive/Escape Installer.event"
+   #include "Escape-Arrive/Escape Installer.event"
   
   // Debuffs
   #include "SuspendDebuffs/Debuffs.event"
@@ -155,31 +160,46 @@ POP
 
   // Fix gaining wexp from weapons you don't have wexp in (for Shadowgift/Lumina)
   #include "Misc/FixWpnRnk.event"
+  
+  //Unit Action Rework (required for movement skills)
+  #include "UnitActionRework/UnitActionRework.event"
 
   //Change Sick Status to Freeze
   #include "Freeze/Freeze.event"
   #include "Freeze/EventFreeze.event"
+  
+  //Makes weapon ability 2 reaver bit just triangle reversal and weapon ability 3 bit 0x80 triple triangle effect
+  ALIGN 4
+  #include "ReaverSplit/ReaverSplit.event"
+  
+  //Makes weapon crit of 255 negate crits
+  ALIGN 4
+  #include "CannotCrit/CannotCrit.event"
+  
+  //Venno's array-based weapon locks
+  ALIGN 4
+  #include "WeaponLockArray/AdvWeaponLocks.event"
 
   ALIGN 4
-  #include "SkillSystem/Master Skill Installer.event"
+  #include "SkillSystem/SkillSystemInstaller.event"
 
+  ALIGN 4
   #include "DisplayWRankOnLevelUp/DisplayWRankOnLevelUp.event"
 
   ALIGN 4
   #include "FE8-Battle Stats with Anims Off/FE8-Battle Stats Master EA File.event"
-
+  
   ALIGN 4
   #include "StatGetters/_InstallStatGetters.event"
   
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
   #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
-
-  //Calculation loops (used for conflicting hacks, formerly "Battle Calculations.event")
-  #include "SkillSystem/Internals/CalcLoops/Calculation Loops.event"
   
   #include "UnitMenu.event"
   #include "Popups.event"
+  
+  #include "SkillSystem/Internals/CalcLoops/CalcLoops.event"
 
   #ifdef STAIRS_ASM
     #ifndef USE_SAVE_EXPANSION

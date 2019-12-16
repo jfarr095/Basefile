@@ -148,5 +148,15 @@ PUSH
   ORG $AB90E
   BYTE 0x0 0x0 0x0 0x20
 
+  //Make the gold items not drop gold
+  ORG $115AA
+  BYTE 0
+  ORG $115AE
+  BYTE 0
+  ORG $115B2
+  BYTE 0
+  ORG $115B6
+  BYTE 0
+
 
 POP
