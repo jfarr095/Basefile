@@ -125,7 +125,7 @@ csvmacro015(NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargetin
 csvmacro015(NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer)
 csvmacro015(NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer)
 csvmacro015(NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer)
-csvmacro015(ChestKeyUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,KeyEffect|IsPointer)
+csvmacro015(MasterKeyUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,KeyEffect|IsPointer)
 csvmacro015(MineUsability|IsPointer,NoItemPSUsability|IsPointer,MineTargeting|IsPointer,MineEffect|IsPointer)
 csvmacro015(LightRuneUsability|IsPointer,NoItemPSUsability|IsPointer,LightRuneTargeting|IsPointer,LightRuneEffect|IsPointer)
 csvmacro015(NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer)

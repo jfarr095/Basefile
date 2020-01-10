@@ -2,52 +2,52 @@ EventPointerTable(CaveWaterTileAnimations,CaveAnimation)
 
 ALIGN 4
 CaveAnimation0:
-#incext png2dmp "CaveAnim.mapanime 1_000.png"
+#incbin "CaveAnim.mapanime 1_000.dmp"
 ALIGN 4
 CaveAnimation1:
-#incext png2dmp "CaveAnim.mapanime 1_001.png"
+#incbin "CaveAnim.mapanime 1_001.dmp"
 ALIGN 4
 CaveAnimation2:
-#incext png2dmp "CaveAnim.mapanime 1_002.png"
+#incbin "CaveAnim.mapanime 1_002.dmp"
 ALIGN 4
 CaveAnimation3:
-#incext png2dmp "CaveAnim.mapanime 1_003.png"
+#incbin "CaveAnim.mapanime 1_003.dmp"
 ALIGN 4
 CaveAnimation4:
-#incext png2dmp "CaveAnim.mapanime 1_004.png"
+#incbin "CaveAnim.mapanime 1_004.dmp"
 ALIGN 4
 CaveAnimation5:
-#incext png2dmp "CaveAnim.mapanime 1_005.png"
+#incbin "CaveAnim.mapanime 1_005.dmp"
 ALIGN 4
 CaveAnimation6:
-#incext png2dmp "CaveAnim.mapanime 1_006.png"
+#incbin "CaveAnim.mapanime 1_006.dmp"
 ALIGN 4
 CaveAnimation7:
-#incext png2dmp "CaveAnim.mapanime 1_007.png"
+#incbin "CaveAnim.mapanime 1_007.dmp"
 ALIGN 4
 CaveAnimation8:
-#incext png2dmp "CaveAnim.mapanime 1_008.png"
+#incbin "CaveAnim.mapanime 1_008.dmp"
 ALIGN 4
 CaveAnimation9:
-#incext png2dmp "CaveAnim.mapanime 1_009.png"
+#incbin "CaveAnim.mapanime 1_009.dmp"
 ALIGN 4
 CaveAnimation10:
-#incext png2dmp "CaveAnim.mapanime 1_010.png"
+#incbin "CaveAnim.mapanime 1_010.dmp"
 ALIGN 4
 CaveAnimation11:
-#incext png2dmp "CaveAnim.mapanime 1_011.png"
+#incbin "CaveAnim.mapanime 1_011.dmp"
 ALIGN 4
 CaveAnimation12:
-#incext png2dmp "CaveAnim.mapanime 1_012.png"
+#incbin "CaveAnim.mapanime 1_012.dmp"
 ALIGN 4
 CaveAnimation13:
-#incext png2dmp "CaveAnim.mapanime 1_013.png"
+#incbin "CaveAnim.mapanime 1_013.dmp"
 ALIGN 4
 CaveAnimation14:
-#incext png2dmp "CaveAnim.mapanime 1_014.png"
+#incbin "CaveAnim.mapanime 1_014.dmp"
 ALIGN 4
 CaveAnimation15:
-#incext png2dmp "CaveAnim.mapanime 1_015.png"
+#incbin "CaveAnim.mapanime 1_015.dmp"
 
 ALIGN 4
 CaveAnimation:
@@ -69,6 +69,54 @@ TilesetAnimation(0x1C,0x1000,CaveAnimation14)
 TilesetAnimation(0x1C,0x1000,CaveAnimation15)
 WORD 0 0
 
+ALIGN 4
+FE6Water1:
+#incbin "FE6 Water Tile Animations.mapanime 1_000.dmp"
+ALIGN 4
+FE6Water2:
+#incbin "FE6 Water Tile Animations.mapanime 1_001.dmp"
+ALIGN 4
+FE6Water3:
+#incbin "FE6 Water Tile Animations.mapanime 1_002.dmp"
+ALIGN 4
+FE6Water4:
+#incbin "FE6 Water Tile Animations.mapanime 1_003.dmp"
+ALIGN 4
+FE6Water5:
+#incbin "FE6 Water Tile Animations.mapanime 1_004.dmp"
+ALIGN 4
+FE6Water6:
+#incbin "FE6 Water Tile Animations.mapanime 1_005.dmp"
+ALIGN 4
+FE6Water7:
+#incbin "FE6 Water Tile Animations.mapanime 1_006.dmp"
+ALIGN 4
+FE6Water8:
+#incbin "FE6 Water Tile Animations.mapanime 1_007.dmp"
+ALIGN 4
+FE6Water9:
+#incbin "FE6 Water Tile Animations.mapanime 1_008.dmp"
+ALIGN 4
+FE6Water10:
+#incbin "FE6 Water Tile Animations.mapanime 1_009.dmp"
+ALIGN 4
+FE6Water11:
+#incbin "FE6 Water Tile Animations.mapanime 1_010.dmp"
+ALIGN 4
+FE6Water12:
+#incbin "FE6 Water Tile Animations.mapanime 1_011.dmp"
+ALIGN 4
+FE6Water13:
+#incbin "FE6 Water Tile Animations.mapanime 1_012.dmp"
+ALIGN 4
+FE6Water14:
+#incbin "FE6 Water Tile Animations.mapanime 1_013.dmp"
+ALIGN 4
+FE6Water15:
+#incbin "FE6 Water Tile Animations.mapanime 1_014.dmp"
+ALIGN 4
+FE6Water16:
+#incbin "FE6 Water Tile Animations.mapanime 1_015.dmp"
 
 ALIGN 4
 FE6WaterTilesetAnimation:
@@ -93,55 +141,6 @@ WORD 0x00 0x00
 EventPointerTable(SnowWaterTileAnimations,FE6WaterTilesetAnimation)
 
 ALIGN 4
-FE6Water1:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_000.png"
-ALIGN 4
-FE6Water2:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_001.png"
-ALIGN 4
-FE6Water3:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_002.png"
-ALIGN 4
-FE6Water4:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_003.png"
-ALIGN 4
-FE6Water5:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_004.png"
-ALIGN 4
-FE6Water6:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_005.png"
-ALIGN 4
-FE6Water7:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_006.png"
-ALIGN 4
-FE6Water8:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_007.png"
-ALIGN 4
-FE6Water9:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_008.png"
-ALIGN 4
-FE6Water10:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_009.png"
-ALIGN 4
-FE6Water11:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_010.png"
-ALIGN 4
-FE6Water12:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_011.png"
-ALIGN 4
-FE6Water13:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_012.png"
-ALIGN 4
-FE6Water14:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_013.png"
-ALIGN 4
-FE6Water15:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_014.png"
-ALIGN 4
-FE6Water16:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_015.png"
-
-ALIGN 4
 FE6IceAnimationData:
 #incbin "FE6IceAnimationData.dmp"
 
@@ -156,3 +155,42 @@ AnimType2Installer(FE6IceAnimationData + 40,3,4,60)
 WORD 0x0 0x0
 
 EventPointerTable(SnowIceTileAnimations,FE6IceAnimationTable)
+
+ALIGN 4
+GateAnim0:
+#incbin "DragonsGate.mapanime 1_000.dmp"
+ALIGN 4
+GateAnim1:
+#incbin "DragonsGate.mapanime 1_001.dmp"
+ALIGN 4
+GateAnim2:
+#incbin "DragonsGate.mapanime 1_002.dmp"
+ALIGN 4
+GateAnim3:
+#incbin "DragonsGate.mapanime 1_003.dmp"
+ALIGN 4
+GateAnim4:
+#incbin "DragonsGate.mapanime 1_004.dmp"
+ALIGN 4
+GateAnim5:
+#incbin "DragonsGate.mapanime 1_005.dmp"
+ALIGN 4
+GateAnim6:
+#incbin "DragonsGate.mapanime 1_006.dmp"
+ALIGN 4
+GateAnim7:
+#incbin "DragonsGate.mapanime 1_007.dmp"
+
+ALIGN 4
+DragonsGateTilesetAnimation:
+TilesetAnimation(11,1024,GateAnim0)
+TilesetAnimation(11,1024,GateAnim1)
+TilesetAnimation(11,1024,GateAnim2)
+TilesetAnimation(11,1024,GateAnim3)
+TilesetAnimation(11,1024,GateAnim4)
+TilesetAnimation(11,1024,GateAnim5)
+TilesetAnimation(11,1024,GateAnim6)
+TilesetAnimation(11,1024,GateAnim7)
+WORD 0x00 0x00
+
+EventPointerTable(DragonsGateAnimations,DragonsGateTilesetAnimation)

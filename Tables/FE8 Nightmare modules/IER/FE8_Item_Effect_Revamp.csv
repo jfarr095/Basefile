@@ -120,7 +120,7 @@ Blue Gem,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|I
 Red Gem,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
 Gold,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
 Reginleif,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
-Chest Key (5),ChestKeyUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,KeyEffect|IsPointer
+Master Key,MasterKeyUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,KeyEffect|IsPointer
 Mine (Item),MineUsability|IsPointer,NoItemPSUsability|IsPointer,MineTargeting|IsPointer,MineEffect|IsPointer
 Light Rune (Item),LightRuneUsability|IsPointer,NoItemPSUsability|IsPointer,LightRuneTargeting|IsPointer,LightRuneEffect|IsPointer
 Hoplon Guard,NoItemUsability|IsPointer,NoItemPSUsability|IsPointer,NoItemTargeting|IsPointer,NoItemEffect|IsPointer
