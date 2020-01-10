@@ -221,3 +221,4 @@
 // 0xde and 0xdf (2)
 
 #define SpiritDustIcon 0xab
+#define MasterKeyIcon 0xac

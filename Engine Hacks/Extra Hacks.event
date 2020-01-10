@@ -94,3 +94,6 @@
 
   //Enfeeble Status
   #include "Enfeeble/Enfeeble.event"
+
+  //Small Fonts
+  #include "NarrowFontInstaller/Narrowfont installer.event"

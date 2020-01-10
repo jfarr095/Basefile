@@ -1,10 +1,7 @@
 TODO
 
-Spirit Dust Item
 Skill Manual Items
-Switch to remove gold bag items
 Transformation animations
-IER
 
 
 for modulars

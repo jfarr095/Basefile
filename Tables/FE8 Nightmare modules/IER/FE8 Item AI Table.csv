@@ -1,5 +1,6 @@
 INLINE AI_ItemArray,Item Effect ID,##UNKNOWN##,Staff AI Pointer
 Door Key,DoorKey,0x0,0x80408dd
 LockPick,Lockpick,0x0,0x8040975
+Master Key,MasterKey,0x0,0x80408dd
 Anitdote,Antitoxin,0x0,0x8040a79
 End of List,0x0,0x0,0x0
