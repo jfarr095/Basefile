@@ -1,0 +1,10 @@
+//Remove glowy spinny circle thingy from stat screen
+
+PUSH
+ORG $88620
+POIN RemoveGlowy
+POP
+
+ALIGN 4
+RemoveGlowy:
+#incext Png2Dmp "RemoveGlowy.png" --lz77

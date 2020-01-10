@@ -55,16 +55,9 @@ Inverts and triples the weapon triangle.[X]
 ## SpiritDustName
 Spirit Dust[X]
 
-## SpiritDustDescription
+## SpiritDustDesc
 Increases Mag by 2 points.[N]
 Vanishes after use.[X]
 
 ## SpiritDustUseText
 Raises Magic.[X]
-
-## MasterKeyName
-Master Key[X]
-
-## MasterKeyDescription
-Opens doors[N]
-and chests.[X]

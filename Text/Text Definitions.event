@@ -330,9 +330,7 @@
 #define DoubleWTDescription $A24
 #define ReaverDescription $A25
 #define SpiritDustName $A26
-#define SpiritDustDescription $A27
+#define SpiritDustDesc $A27
 #define SpiritDustUseText $A28
-#define MasterKeyName $A29
-#define MasterKeyDescription $A2A
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

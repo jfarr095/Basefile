@@ -158,10 +158,5 @@ PUSH
   ORG $115B6
   BYTE 0
 
-  //Disable LOAD2 extreneous characters
-  ORG $9ED674
-  BYTE 0x0 0x0 0x0 0x0
-
-
 
 POP

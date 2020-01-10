@@ -1,42 +1,11 @@
-#include "Tilesets/Tileset Installer.event"
+//#include "Tilesets/Tileset Installer.event"
+
+//#include "StatScreen/Stat Screen.event"
 
 #define SetMapSprite(ID,Size,Graphics) "PUSH; ORG StandingMapSpriteTable + (ID * 8); StandingMapSpriteInstaller(0x2,0x0,Size,0x0,Graphics|IsPointer); POP"
 
 ALIGN 4
 DVSprite:
-#incext Png2Dmp "DV.png" --lz77
+#incext png2dmp "DV.png" --lz77
 
 SetMapSprite(0x67,0,DVSprite)
-
-PUSH
-ORG WeaponIconOffset(MasterKeyIcon)
-#incext Png2Dmp "MasterKey.png"
-POP
-
-//quick fix for the ballista map sprites
-PUSH
-	//Empty Ballista map sprites
-	ORG $272E2
-	BYTE 0x69	//ballista 
-	ORG $272E6
-	BYTE 0x69	//iron ballista
-	ORG $272EA
-	BYTE 0x6B	//killer ballista
-	
-	//Ballista Rider Map Sprites	
-		//Standing Sprites
-		ORG $17936
-		BYTE 0x66
-		ORG $1793A
-		BYTE 0x66
-		ORG $1793E
-		BYTE 0x68
-		
-		//Moving Sprites
-		ORG $78496
-		BYTE 0x67
-		ORG $7849A
-		BYTE 0x67
-		ORG $7849E
-		BYTE 0x69	
-POP

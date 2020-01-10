@@ -194,9 +194,9 @@
 #define Lagdou7Map 0xB6
 #define Lagdou7TileChange 0xB7
 #define Lagdou7Event 0xB8
+*/
 
 #define Lagdou8Map 0xBA
-*/
 #define Lagdou8TileChange 0xBB
 #define Lagdou8Event 0xBC
 

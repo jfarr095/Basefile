@@ -1350,20 +1350,12 @@ __TEXTPROCESSA26:
 setText($A26, __TEXTPROCESSA26)
 
 __TEXTPROCESSA27:
-#incbin ".TextEntries\text_buildfileSpiritDustDescription.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileSpiritDustDesc.fetxt.dmp"
 setText($A27, __TEXTPROCESSA27)
 
 __TEXTPROCESSA28:
 #incbin ".TextEntries\text_buildfileSpiritDustUseText.fetxt.dmp"
 setText($A28, __TEXTPROCESSA28)
-
-__TEXTPROCESSA29:
-#incbin ".TextEntries\text_buildfileMasterKeyName.fetxt.dmp"
-setText($A29, __TEXTPROCESSA29)
-
-__TEXTPROCESSA2A:
-#incbin ".TextEntries\text_buildfileMasterKeyDescription.fetxt.dmp"
-setText($A2A, __TEXTPROCESSA2A)
 
 }
 

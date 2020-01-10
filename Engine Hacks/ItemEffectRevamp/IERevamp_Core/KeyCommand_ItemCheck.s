@@ -37,7 +37,7 @@ bl 	Inventory_EIDCheck_Jump
 MasterKeyCheck:
 cmp 	r0, #0x0
 bge 	PopBack
-mov 	r6, #0x79
+mov 	r6, #0x00
 DefaultCheck:
 mov 	r0, r4
 mov 	r1, r6

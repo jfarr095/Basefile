@@ -2,18 +2,15 @@
 
 ALIGN 4
 SnowTilesetObjects:
-//#incext Png2Dmp "Compressed Images/Snow.png" --lz77
-#incbin "Compressed Images/Snow.dmp"
+#incext Png2Dmp "Compressed Images/Snow.png" --lz77
 
 ALIGN 4
 SnowTilesetPalette:
-//#incext Png2Dmp "Compressed Images/Snow.png" --palette-only
-#incbin "Compressed Images/Snow_pal.dmp"
+#incext Png2Dmp "Compressed Images/Snow.png" --palette-only
 
 ALIGN 4
 SnowTilesetTileConfig:
-//#incext compress "MapChip/Snow.mapchip_config"
-#incbin "MapChip/Snow_comp.dmp"
+#incext compress "MapChip/Snow.mapchip_config"
 
 EventPointerTable(SnowObjectSet,SnowTilesetObjects)
 EventPointerTable(SnowPalette,SnowTilesetPalette)
@@ -21,18 +18,15 @@ EventPointerTable(SnowTileConfig,SnowTilesetTileConfig)
 
 ALIGN 4
 SnowCastleTilesetObjects:
-//#incext Png2Dmp "Compressed Images/Snow Castle.png" --lz77
-#incbin "Compressed Images/Snow Castle.dmp"
+#incext Png2Dmp "Compressed Images/Snow Castle.png" --lz77
 
 ALIGN 4
 SnowCastleTilesetPalette:
-//#incext Png2Dmp "Compressed Images/Snow Castle.png" --palette-only
-#incbin "Compressed Images/Snow Castle_pal.dmp"
+#incext Png2Dmp "Compressed Images/Snow Castle.png" --palette-only
 
 ALIGN 4
 SnowCastleTilesetTileConfig:
-//#incext compress "MapChip/Snow Castle.mapchip_config"
-#incbin "MapChip/Snow Castle_comp.dmp"
+#incext compress "MapChip/Snow Castle.mapchip_config"
 
 EventPointerTable(SnowCastleObjectSet,SnowCastleTilesetObjects)
 EventPointerTable(SnowCastlePalette,SnowCastleTilesetPalette)
@@ -40,18 +34,15 @@ EventPointerTable(SnowCastleTileConfig,SnowCastleTilesetTileConfig)
 
 ALIGN 4
 FrontierTilesetObjects:
-//#incext Png2Dmp "Compressed Images/Frontier.png" --lz77
-#incbin "Compressed Images/Frontier.dmp"
+#incext Png2Dmp "Compressed Images/Frontier.png" --lz77
 
 ALIGN 4
 FrontierTilesetPalette:
-//#incext Png2Dmp "Compressed Images/Frontier.png" --palette-only
-#incbin "Compressed Images/Frontier_pal.dmp"
+#incext Png2Dmp "Compressed Images/Frontier.png" --palette-only
 
 ALIGN 4
 FrontierTilesetTileConfig:
-//#incext compress "MapChip/Frontier.mapchip_config"
-#incbin "MapChip/Frontier_comp.dmp"
+#incext compress "MapChip/Frontier.mapchip_config"
 
 EventPointerTable(FrontierObjectSet,FrontierTilesetObjects)
 EventPointerTable(FrontierPalette,FrontierTilesetPalette)
@@ -59,57 +50,120 @@ EventPointerTable(FrontierTileConfig,FrontierTilesetTileConfig)
 
 ALIGN 4
 FrontierVillageTilesetObjects:
-//#incext Png2Dmp "Compressed Images/Frontier Village.png" --lz77
-#incbin "Compressed Images/Frontier Village.dmp"
+#incext Png2Dmp "Compressed Images/Frontier Village.png" --lz77
 
 ALIGN 4
 FrontierVillageTilesetPalette:
-//#incext Png2Dmp "Compressed Images/Frontier Village.png" --palette-only
-#incbin "Compressed Images/Frontier Village_pal.dmp"
+#incext Png2Dmp "Compressed Images/Frontier Village.png" --palette-only
 
 ALIGN 4
 FrontierVillageTilesetTileConfig:
-//#incext compress "MapChip/Frontier Village.mapchip_config"
-#incbin "MapChip/Frontier Village_comp.dmp"
+#incext compress "MapChip/Frontier Village.mapchip_config"
 
 EventPointerTable(FrontierVillageObjectSet,FrontierVillageTilesetObjects)
 EventPointerTable(FrontierVillagePalette,FrontierVillageTilesetPalette)
 EventPointerTable(FrontierVillageTileConfig,FrontierVillageTilesetTileConfig)
 
 ALIGN 4
+DesertTilesetObjects:
+#incext Png2Dmp "Compressed Images/Desert.png" --lz77
+
+ALIGN 4
+DesertTilesetPalette:
+#incext Png2Dmp "Compressed Images/Desert.png" --palette-only
+
+ALIGN 4
+DesertTilesetTileConfig:
+#incext compress "MapChip/Desert.mapchip_config"
+
+EventPointerTable(DesertObjectSet,DesertTilesetObjects)
+EventPointerTable(DesertPalette,DesertTilesetPalette)
+EventPointerTable(DesertTileConfig,DesertTilesetTileConfig)
+
+ALIGN 4
+CastleTownTilesetObjects:
+#incext Png2Dmp "Compressed Images/Castle Town.png" --lz77
+
+ALIGN 4
+CastleTownTilesetPalette:
+#incext Png2Dmp "Compressed Images/Castle Town.png" --palette-only
+
+ALIGN 4
+CastleTownTilesetTileConfig:
+#incext compress "MapChip/Castle Town.mapchip_config"
+
+EventPointerTable(CastleTownObjectSet,CastleTownTilesetObjects)
+EventPointerTable(CastleTownPalette,CastleTownTilesetPalette)
+EventPointerTable(CastleTownTileConfig,CastleTownTilesetTileConfig)
+
+ALIGN 4
 CaveTilesetObjects:
-//#incext Png2Dmp "Compressed Images/Cave.png" --lz77
-#incbin "Compressed Images/Cave.dmp"
+#incext Png2Dmp "Compressed Images/Cave.png" --lz77
 
 ALIGN 4
 CaveTilesetPalette:
-//#incext Png2Dmp "Compressed Images/Cave.png" --palette-only
-#incbin "Compressed Images/Cave_pal.dmp"
+#incext Png2Dmp "Compressed Images/Cave.png" --palette-only
 
 ALIGN 4
 CaveTilesetTileConfig:
-//#incext compress "MapChip/Cave.mapchip_config"
-#incbin "MapChip/Cave_comp.dmp"
+#incext compress "MapChip/Cave.mapchip_config"
 
 EventPointerTable(CaveObjectSet,CaveTilesetObjects)
 EventPointerTable(CavePalette,CaveTilesetPalette)
 EventPointerTable(CaveTileConfig,CaveTilesetTileConfig)
 
-ALIGN 4
-DragonsGateTilesetObjects:
-#incbin "Compressed Images/Dragons Gate.dmp"
+#ifdef ImprovedTilesets
 
 ALIGN 4
-DragonsGateTilesetPalette:
-#incbin "Compressed Images/Dragons Gate_pal.dmp"
+VillageTilesetObjects:
+#incext Png2Dmp "Compressed Images/Village.png" --lz77
 
 ALIGN 4
-DragonsGateTilesetTileConfig:
-#incbin "MapChip/Dragons Gate_comp.dmp"
+VillageTilesetPalette:
+#incext Png2Dmp "Compressed Images/Village.png" --palette-only
 
-EventPointerTable(DragonsGateObjectSet,DragonsGateTilesetObjects)
-EventPointerTable(DragonsGatePalette,DragonsGateTilesetPalette)
-EventPointerTable(DragonsGateTileConfig,DragonsGateTilesetTileConfig)
+ALIGN 4
+VillageTilesetTileConfig:
+#incext compress "MapChip/Village.mapchip_config"
+
+EventPointerTable(VillageObjectSet,VillageTilesetObjects)
+EventPointerTable(VillagePalette,VillageTilesetPalette)
+EventPointerTable(VillageTileConfig,VillageTilesetTileConfig)
+
+ALIGN 4
+CastleTilesetObjects:
+#incext Png2Dmp "Compressed Images/Castle.png" --lz77
+
+ALIGN 4
+CastleTilesetPalette:
+#incext Png2Dmp "Compressed Images/Castle.png" --palette-only
+
+ALIGN 4
+CastleTilesetPalette2:
+#incext Png2Dmp "Compressed Images/Castle2.png" --palette-only
+
+ALIGN 4
+CastleTilesetPalette3:
+#incext Png2Dmp "Compressed Images/Castle3.png" --palette-only
+
+ALIGN 4
+CastleTilesetPalette4:
+#incext Png2Dmp "Compressed Images/Castle4.png" --palette-only
+
+ALIGN 4
+CastleTilesetTileConfig:
+#incext compress "MapChip/Castle.mapchip_config"
+
+EventPointerTable(CastleObjectSet,CastleTilesetObjects)
+EventPointerTable(CastlePalette,CastleTilesetPalette)
+EventPointerTable(CastlePalette2,CastleTilesetPalette2)
+EventPointerTable(CastlePalette3,CastleTilesetPalette3)
+EventPointerTable(CastlePalette4,CastleTilesetPalette4)
+EventPointerTable(CastleTileConfig,CastleTilesetTileConfig)
+
+#endif
+
+
 
 ALIGN 4
 #include "TileAnims/TileAnims.event"

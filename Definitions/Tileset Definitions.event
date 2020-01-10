@@ -94,9 +94,9 @@
 #define CaveTileConfig 0xB4
 #define CaveWaterTileAnimations 0xB5
 
-#define DragonsGateObjectSet 0xB6
-#define DragonsGatePalette 0xB7
-#define DragonsGateTileConfig 0xB8
-#define DragonsGateAnimations 0xBA
+#define CastleTownObjectSet 0xB6
+#define CastleTownPalette 0xB7
+#define CastleTownTileConfig 0xB8
+
 
 
