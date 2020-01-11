@@ -4,14 +4,9 @@
 
 ALIGN 4
 DVSprite:
-#incext Png2Dmp "DV.png" --lz77
+#incbin "DV.dmp"
 
 SetMapSprite(0x67,0,DVSprite)
-
-PUSH
-ORG WeaponIconOffset(MasterKeyIcon)
-#incext Png2Dmp "MasterKey.png"
-POP
 
 //quick fix for the ballista map sprites
 PUSH

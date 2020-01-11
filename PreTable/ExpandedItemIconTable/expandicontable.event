@@ -1,28 +1,9 @@
-
 //Icons at $5926F4
 //Palette at $5996F4
 
 ALIGN 4
 NewItemIcons:
-#incext Png2Dmp "FullIconSheet.png"
-/*
-#incext Png2Dmp "Sheet 1.png"
-#incext Png2Dmp "Sheet 2.png"
-#incext Png2Dmp "Sheet 3.png"
-#incext Png2Dmp "Sheet 4.png"
-#incext Png2Dmp "Sheet 5.png"
-#incext Png2Dmp "Sheet 6.png"
-#incext Png2Dmp "Sheet 7.png"
-#incext Png2Dmp "Sheet 8.png"
-#incext Png2Dmp "Sheet 9.png"
-#incext Png2Dmp "Sheet 10.png"
-#incext Png2Dmp "Sheet 11.png"
-#incext Png2Dmp "Sheet 12.png"
-#incext Png2Dmp "Sheet 13.png"
-#incext Png2Dmp "Sheet 14.png"
-#incext Png2Dmp "Sheet 15.png"
-#incext Png2Dmp "Sheet 16.png"
-*/
+#incbin "FullIconSheet.dmp"
 
 PUSH
 ORG $36B4
