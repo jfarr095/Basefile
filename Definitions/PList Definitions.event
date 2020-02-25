@@ -20,7 +20,7 @@
 
 #define Ch5xMap 0x1B
 #define Ch5xTileChange 0x1D
-#define Ch5xEvent 0x1A
+#define Ch5xEvent 0x1E
 
 #define Ch5Map 0x1F
 #define Ch5TileChange 0x20

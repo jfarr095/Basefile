@@ -91,6 +91,7 @@
 #define SetItemMt(ItemID,Might) "PUSH; ORG ItemTable + 0x15 + (ItemID * 36); BYTE Might; POP"
 #define SetItemAccuracy(ItemID,Acc) "PUSH; ORG ItemTable + 0x16 + (ItemID * 36); BYTE Acc; POP"
 #define SetItemWeight(ItemID,Weight) "PUSH; ORG ItemTable + 0x17 + (ItemID * 36); BYTE Weight; POP"
+#define SetItemValue(ItemID,Value) "PUSH; ORG ItemTable + 0x1A + (ItemID * 36); SHORT Value; POP"
 #define SetItemRank(ItemID,Rank) "PUSH; ORG ItemTable + 0x1C + (ItemID * 36); BYTE Rank; POP"
 #define SetItemExtraByte(ItemID,Value) "PUSH; ORG ItemTable + 0x22 + (ItemID * 36); BYTE Value; POP"
 

@@ -11,6 +11,7 @@
 #define LunarBrace MoonBracelet
 #define SolarBrace SunBracelet
 #define Speedwing Speedwings
+#define Handaxe HandAxe
 
 #define SpiritDust 0xBC
 #define MasterKey 0x79
