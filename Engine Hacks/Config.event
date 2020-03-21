@@ -78,7 +78,7 @@
 #define TEXT_CHAPTER_NAMES
 
 //If uncommented, will enable Proper Range Getters.
-#define HAX_PROPER_RANGE_GETTERS_EVENT
+//#define HAX_PROPER_RANGE_GETTERS_EVENT
 
 //If uncommented, will use allegiance-based statscreen palettes.
 // #define STATSCREEN_ALLEGIANCE
