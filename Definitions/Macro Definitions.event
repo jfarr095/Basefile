@@ -105,9 +105,12 @@
 
 //Event Definitions
 #define LoadUnit(x,y) "UNIT Seth Cavalier 0x00 Level(1,Ally,1) [x,y] 0x00 0x00 0x00 0x00 [0x00] NoAI" //for units in player placement with prep menu
+#define LoadUnit(unitid,x,y) "UNIT unitid Cavalier 0x00 Level(1,Ally,1) [x,y] 0x00 0x00 0x00 0x00 [0x00] NoAI"
 #define Unit(x,y) "LoadUnit(x,y)"
+#define Unit(unitid,x,y) "LoadUnit(unitid,x,y)"
 #define LoadUnitReda(unitid,x,y,reda) "UNIT unitid Cavalier 0x00 Level(1,Ally,1) [x,y] 0x00 0x00 1 reda [0x00] NoAI" //for units in player placement with prep menu
 #define UnitReda(unitid,x,y,reda) "LoadUnitReda(unitid,x,y,reda)"
+#define UnitReda(x,y,reda) "LoadUnitReda(Seth,x,y,reda)"
 #define Kill(unitid) "SET_SOMETHING unitid;DISA_IF unitid"
 #define Kill(X,Y) "SVAL 0xB Coords(X,Y) ; SET_SOMETHING 0xFFFE ; DISA_IF 0xFFFE"
 #define ClearAll "CLEE 0x0; CLEA 0x0; CLEN 0x0"
@@ -119,7 +122,7 @@
 #define CamOn "EVBIT_T 0x9"
 #define CamOff "EVBIT_F 0x9"
 //#define WarpIn(X,Y,UnitPointer) "SVAL 0xB Coords(X,Y) ; WARP_IN ; LOAD1 0x1 UnitPointer ; ENUN"
-#define WarpOut(X,Y) "SVAL 0xB Coords(X,Y) ; WARP_OUT ; DISA [X,Y]"
+#define WarpOut(X,Y) "SVAL 0xB Coords(X,Y) ; WARP_OUT ; DISA 0xFFFE; STAL 60"
 #define EndConvo "CALL $9EE2C4"
 #define MoveCoords(X1,Y1,X2,Y2) "SVAL 0xB Coords(X1,Y1) ; MOVE 0x0 0xFFFE [X2,Y2]"
 #define MoveCoords(X1,Y1,Speed,X2,Y2) "SVAL 0xB Coords(X1,Y1) ; MOVE Speed 0xFFFE [X2,Y2]"
@@ -148,3 +151,4 @@
 #define VillageEventMoneyNoEnd(textID,background,money) "MUSI; SMOV 0x2 background; SMOV 0x3 textID; CALL $9EE310; MUNO; CALL $591F40; SMOV 0x3 money; GIVEITEMTOMAIN 0"
 #define HouseEventNoEnd(textID,background) "MUSI; SMOV 2 background; SMOV 3 textID; CALL $9EE310; MUNO"
 #define ConvoEventNoEnd(textID) "MUSI; TEXTSTART; TEXTSHOW textID; TEXTEND; REMA; MUNO"
+#define WarpTo(unitid,xcoord,ycoord) "CHECK_COORDS unitid; SADD 0xCB; WARP_OUT; REMU unitid; STAL 60; SVAL 0x2 unitid; _WARP 0xFFFF 0xFFFD [xcoord,ycoord]; STAL2 10; CALL 0x9EE4F8; REVEAL unitid; STAL 60"

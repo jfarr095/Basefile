@@ -78,6 +78,18 @@ by having this unit arrive.[X]
 ## HouseText
 [MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
 
+## LikesDesc
+[X]
+
+## DislikesDesc
+[X]
+
+## AgeDesc
+[X]
+
+## HeightDesc
+[X]
+
 #include "skilldesc_text.txt"
 
 #include "item text.txt"

@@ -8,11 +8,6 @@
 #include "EAstdlib.event"
 #include "Extensions/Hack Installation.txt"
 
-#ifndef FreeSpace
-    #define FreeSpace 0xB2A610
-    ORG FreeSpace
-#endif
-
 #ifndef ENABLE_SLAYER_AND_EFFECTIVENESS_REWORK
 	//we merely add Slayer and Nullify checks as necessary
 	
@@ -55,7 +50,7 @@
 	
 	//slayer redux
 	ORG $16C88
-	jumpToHack(Redone_Slayer)
+	jumpToHack(Redone_Redone_Slayer)
 	
 	//effectiveness redux
 	ORG $16BEC
@@ -76,6 +71,18 @@
 	#incbin "Redone_Effectiveness.dmp"
 	POIN SkillTester
 	WORD NullifyID
+
+	ALIGN 4
+	Redone_Redone_Slayer:
+	#incbin "Redone_Redone_Slayer.dmp"
+	POIN SkillTester
+	WORD SlayerID
+	WORD NullifyID
+	WORD MonsterType
+	WORD SkybreakerID
+	WORD FlierType
+	WORD ResourcefulID
+	
 	
 #endif
 

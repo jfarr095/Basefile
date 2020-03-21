@@ -281,7 +281,7 @@
 #define TownBackground 0x3
 #define PlainsBackground 0x4
 #define FortBackground 0x5
-#define TownBackgound2 0x6
+#define TownBackground2 0x6
 #define TownBackground3 0x7
 #define ShipBackground 0x8
 #define DesertBackground 0x9
@@ -291,8 +291,8 @@
 #define DarklingBackground 0xd
 #define RenaisBackground 0xe
 #define CastleBackground 0xf
-#define Castlebackground2 0x10
-#define Castlebackground3 0x11
+#define CastleBackground2 0x10
+#define CastleBackground3 0x11
 #define MountainBackground 0x12
 #define PortBackground 0x13
 #define SwampBackground 0x14
