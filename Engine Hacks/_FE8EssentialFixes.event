@@ -119,7 +119,7 @@ POP
   BYTE $e0
 
 // Fix proc names not being cleared (Stan)
-ORG $002C9E
+  ORG $002C9E
   SHORT $6129 $2026 $5429 $3002 $5429
 
 // Fix CAM1/CAMERA2 going out of bounds (Stan)

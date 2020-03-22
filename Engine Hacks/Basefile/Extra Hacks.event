@@ -91,6 +91,3 @@
 
   //Small Fonts
   #include "NarrowFontInstaller/Narrowfont installer.event"
-
-  //Modular EXP
-  #include "ModularEXP/ModularEXP.event"
