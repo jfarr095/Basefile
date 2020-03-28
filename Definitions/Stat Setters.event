@@ -12,7 +12,7 @@
 
 // Class
 #define SetClassName(ClassID,Name) "PUSH; ORG ClassTable + (ClassID * 84); SHORT Name; POP"
-#define SetClassDescription(ClassID,Description) "PUSH; ORG ClassTable + 0x2 (ClassID * 84); SHORT Description; POP"
+#define SetClassDescription(ClassID,Description) "PUSH; ORG ClassTable + 0x2 + (ClassID * 84); SHORT Description; POP"
 #define SetClassID(ClassID,Value) "PUSH; ORG ClassTable + 0x4 + (ClassID * 84); BYTE Value; POP"
 #define SetClassPromotion(ClassID,Promotion) "PUSH; ORG ClassTable + 0x5 + (ClassID * 84); BYTE Promotion; POP"
 #define SetClassMovingMapSprite(ClassID,Value) "PUSH; ORG ClassTable + 0x6 + (ClassID * 84); BYTE Value; POP"
