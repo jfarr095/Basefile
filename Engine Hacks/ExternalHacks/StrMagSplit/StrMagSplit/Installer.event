@@ -20,7 +20,7 @@
 
 #include "UnitViewer/UnitViewer.event"
 
-#include "PrepScreenMagBooster/PrepScreen.event"
+#include "PrepScreenMagBooster/Prep Screen EA.event"
 
 #include "AutolevellingSaves/AutolevelSave.event"
 

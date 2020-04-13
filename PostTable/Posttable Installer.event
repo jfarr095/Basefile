@@ -1,5 +1,7 @@
 #define ItemTable ExpandedItemTable
 
+#define PromotionBranchTable NewPromotionBranchTable
+
 #include "Item Editor.event"
 #include "Table Locations.event"
 #include "Repointers.event"
