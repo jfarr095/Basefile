@@ -1,6 +1,6 @@
 #define ItemTable ExpandedItemTable
 
-#define PromotionBranchTable NewPromotionBranchTable
+//#define PromotionBranchTable NewPromotionBranchTable
 
 #include "Item Editor.event"
 #include "Table Locations.event"
