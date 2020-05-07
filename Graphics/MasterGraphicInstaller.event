@@ -1,5 +1,7 @@
 #include "Tilesets/Tileset Installer.event"
 
+#include "ExternalIconSheets/External Icons.event"
+
 #define SetMapSprite(ID,Size,Graphics) "PUSH; ORG StandingMapSpriteTable + (ID * 8); StandingMapSpriteInstaller(0x2,0x0,Size,0x0,Graphics|IsPointer); POP"
 
 ALIGN 4

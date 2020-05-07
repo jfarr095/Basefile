@@ -1,0 +1,6 @@
+PUSH
+ORG $8779C
+jumpToHack(NewWrankIconGetter)
+POP
+
+#include "NewWrankDraw.lyn.event"

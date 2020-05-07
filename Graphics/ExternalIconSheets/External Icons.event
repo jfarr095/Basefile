@@ -1,0 +1,22 @@
+ALIGN 4
+AffinityIcons:
+#incbin "AffinityIcons.dmp"
+
+ALIGN 4
+MountTypeIcons:
+#incbin "MountTypeIcons.dmp"
+
+ALIGN 4
+WRankIcons:
+#incbin "WRankIcons.dmp"
+
+PUSH
+ORG $286C6
+SHORT 0x3801 //set affinity index
+ORG $18AFE
+SHORT 0x2000 //set horse icon index to 0
+ORG $18B0C
+SHORT 0x2001 //set peg icon index to 1
+ORG $18B20
+SHORT 0x2002 //set dragon icon index to 2
+POP

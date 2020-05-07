@@ -91,3 +91,6 @@
 
   //Small Fonts
   #include "NarrowFontInstaller/Narrowfont installer.event"
+
+  // External Icons
+  #include "ExternalIcons/External Icons.event"

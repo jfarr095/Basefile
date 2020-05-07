@@ -168,4 +168,23 @@ PUSH
   SHORT 0x2001 //mov r0,#0x1
   SHORT 0x46C0 //nop
 
+  // Make Arrive work
+  ORG ($8410C + (4*0x19)); POIN $841AC; ORG ($8410C + (4*0x13)); POIN $841AC
+
+  // Fix autolevels for growths above 127
+  ORG 0x17fd5
+  BYTE 0xe
+  ORG 0x17fe9
+  BYTE 0xe
+  ORG 0x17ffd
+  BYTE 0xe
+  ORG 0x18011
+  BYTE 0xe
+  ORG 0x18025
+  BYTE 0xe
+  ORG 0x1803b
+  BYTE 0xe
+  ORG 0x18051
+  BYTE 0xe
+
 POP
